@@ -16,7 +16,7 @@ An interactive mindmap of the six Elements of Music (Duration, Pitch, Texture, P
 Built from the teacher's own Notion reference page: his definitions, his notation graphics, his "Ask the class" listening questions. It is his course material in map form, not a generic theory site.
 
 ## Operating Context
-Classroom projector and student devices. Content source of truth is the Notion page "Content" (Kevin's Music Teaching Archive). Element colours are the teacher's Notion tag colours and are used across his materials. Revision happens separately in a Gimkit kit. Published as a Claude artifact (images bundled) and mirrored in the GitHub repo gnehciak/elements-of-music-images.
+Classroom projector and student devices. Content source of truth is the Notion page "Content" (Kevin's Music Teaching Archive). Element colours are the teacher's Notion tag colours and are used across his materials. Revision happens separately in a Gimkit kit. Published as a Claude artifact (images bundled) and mirrored in the GitHub repo gnehciak/elements-of-music.
 
 ## Capabilities and Constraints
 - Single self-contained HTML page, vanilla JS, no framework; built by `build.py` from `src/`.
