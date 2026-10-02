@@ -1,6 +1,6 @@
 # Elements of Music – images and mindmap
 
-Live: https://elements-of-music.vercel.app (Stage 4 and Stage 5, switch with the toggle in the header; `#stage5` in the link opens Stage 5 directly).
+Live: https://elements-of-music.vercel.app (mirror: https://gnehciak.github.io/elements-of-music-images/) (Stage 4 and Stage 5, switch with the toggle in the header; `#stage5` in the link opens Stage 5 directly).
 
 Images for the Stage 4 *Elements of Music* reference (NSW Music 7–10 Syllabus, 2024), plus the interactive mindmap that uses them.
 
