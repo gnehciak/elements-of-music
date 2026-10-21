@@ -189,8 +189,10 @@ button,input{font:inherit;color:inherit}
   .node.d0 .stave{gap:4px;margin:10px 2px 8px}
 }
 @media (prefers-reduced-motion:reduce){
-  .node .card,.world path,.bill,.hint,.viewer[open],.viewer::backdrop{animation:none}
-  .node .card,.chip,.btn,.node .pic img,.world path,.mini,.hint{transition:none}
+  /* .node .card keeps its pull/clip-path reveal so the expand still animates
+     (see DUR note in script); only the ambient flourishes are suppressed. */
+  .world path,.bill,.hint,.viewer[open],.viewer::backdrop{animation:none}
+  .chip,.btn,.node .pic img,.world path,.mini,.hint{transition:none}
 }
 </style>
 
@@ -716,7 +718,10 @@ const stage=document.getElementById("stage"), world=document.getElementById("wor
 const SVGNS="http://www.w3.org/2000/svg";
 const svg=document.createElementNS(SVGNS,"svg"); world.appendChild(svg);
 const reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const DUR=reduce?0:520;
+/* The expand/collapse tween always plays: many Windows machines disable OS
+   "Animation effects", which Chrome reports as reduce-motion, and the diagram
+   reads as broken without it. Other flourishes still respect the setting. */
+const DUR=520;
 const nodes=[];
 let root, narrow=window.innerWidth<720;
 const mk=(tag,cls,text)=>{const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e};
