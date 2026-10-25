@@ -303,5 +303,11 @@
  ],
  "Cadence>Interrupted: V-vi": [
   "rm_s5_cad_interrupted.png"
+ ],
+ "Scales>Melodic minor": [
+  "rm_s5_melodic_minor.png"
+ ],
+ "Gradations of dynamics>Terraced dynamics": [
+  "rm_s5_terraced.png"
  ]
 }

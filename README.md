@@ -1,11 +1,13 @@
 # Elements of Music – images and mindmap
 
-Live: https://elements-of-music.vercel.app (mirror: https://gnehciak.github.io/elements-of-music/) (Stage 4 and Stage 5, switch with the toggle in the header; `#stage5` in the link opens Stage 5 directly).
+Live: https://elements-of-music.vercel.app (mirror: https://gnehciak.github.io/elements-of-music/) (Stage 4, Stage 5 and Stage 6, switch with the toggle in the header; `#stage5` or `#stage6` in the link opens that stage directly). Stage 6 is the HSC vocabulary from the Notion "Elements of Music Vocabulary Database", with the exemplar quotes from HSC and Trial marking guidelines.
 
 Images for the Stage 4 *Elements of Music* reference (NSW Music 7–10 Syllabus, 2024), plus the interactive mindmap that uses them.
 
 - `index.html` – the interactive mindmap (open it in a browser; it loads pictures from `images/`)
 - `src/` + `build.py` – mindmap source: `content.js` (the text), `image-map.json` (which picture goes on which node), `readmore.json` (the Read more pop-up for every card: what it is, how it's used, what to listen for, an example analysis sentence and extra pictures), `template.html` (design and behaviour). Run `python3 build.py` to rebuild `index.html`
+- `audio/` + `tools/audio.py` – the Listen buttons: each mp3 is rendered from a LilyPond source through MIDI and MuseScore 4 (MuseSounds). Add a name to `AUDIO` in the script and run it, then `python3 build.py`
+- `src/content-stage6.js` – generated from the Notion database; edit the text through `src/readmore.json` and the card titles there
 - `lilypond/` – LilyPond sources for the notation graphics added later (the `rm_` files are the Read more examples)
 - `images/` – 218 notation graphics and instrument photos, exported from the Notion page
 - `captions.json` – file name, caption, credit and pixel size for every image

@@ -43,6 +43,7 @@ n("Pitch","How high or low sounds are: melody, harmony and tonality. Stage 5 add
     n("Blues","C, E flat, F, F sharp, G, B flat. Minor pentatonic plus the blue note. Blues, rock, jazz."),
     n("Whole-tone","Every step is a tone. Dreamy, floating, no home note. Debussy, film music."),
     n("Chromatic","All 12 semitones. Tense and sliding (see Stage 4)."),
+    n("Melodic minor","Raised 6th and 7th going up, natural minor coming down. A smoother minor melody."),
     n("Harmonic minor","Natural minor with a raised 7th. The big gap between notes 6 and 7 gives an exotic sound."),
     n("Raga (India)","A scale plus rules. Each raga has set notes going up and down, special phrases, a mood and a time of day.",[
       n("Sargam","The Indian note names Sa Re Ga Ma Pa Dha Ni Sa, like do re mi"),
@@ -118,7 +119,8 @@ n("Dynamics and expression","Dynamics is the volume of the music; expression is 
     n("ppp and fff","Extremely soft / extremely loud"),
     n("subito","Suddenly, e.g. subito piano"),
     n("poco a poco","Little by little"),
-    n("molto","Very")
+    n("molto","Very"),
+    n("Terraced dynamics","Sudden steps between loud and soft, with no crescendo. Typical of Baroque music.")
   ]),
   n("Articulation",[
     n("Tenuto (line)","Hold for the full value, slightly stressed"),

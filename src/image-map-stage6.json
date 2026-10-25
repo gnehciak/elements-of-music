@@ -1,0 +1,122 @@
+{
+ "Note-value character>snap": [
+  "rm_s6_duration_snap.png"
+ ],
+ "Note-value character>quintuplet": [
+  "rm_s6_duration_tuplets.png"
+ ],
+ "Note-value character>sextuplet": [
+  "rm_s6_duration_tuplets.png"
+ ],
+ "Tempo and rhythmic terms (Italian)>metric modulation": [
+  "rm_s6_duration_metric_modulation.png"
+ ],
+ "Irregularity / syncopation>shifting / displaced": [
+  "rm_s6_duration_displaced.png"
+ ],
+ "Irregularity / syncopation>hemiola / hemiolic": [
+  "rm_s5_hemiola.png"
+ ],
+ "Articulation>staccatissimo": [
+  "rm_s6_dynamics_staccatissimo.png"
+ ],
+ "Change in dynamics>swelling / swells": [
+  "rm_s6_dynamics_swells.png"
+ ],
+ "Change in dynamics>terraced": [
+  "rm_s6_dynamics_terraced.png"
+ ],
+ "Performance directions (Italian)>sforzando (sfz) / fortepiano (fp) / sfzp": [
+  "rm_s6_dynamics_sfz_fp.png"
+ ],
+ "Performance directions (Italian)>ad libitum / senza misura / 'breathing' marks": [
+  "rm_s6_dynamics_breath.png"
+ ],
+ "Special playing techniques>jeté bowing": [
+  "rm_s6_dynamics_spicc_jete.png"
+ ],
+ "Special playing techniques>snap pizzicato / Bartók pizz.": [
+  "rm_s6_dynamics_snap_pizz.png"
+ ],
+ "Special playing techniques>laissez vibrer": [
+  "rm_s6_dynamics_lv.png"
+ ],
+ "Harmony and chord quality>suspended / suspension": [
+  "rm_s6_pitch_suspension.png"
+ ],
+ "Harmony and chord quality>root position / inverted": [
+  "rm_s6_pitch_inversions.png"
+ ],
+ "Harmony and chord quality>diminished / augmented": [
+  "rm_s6_pitch_dim_aug.png"
+ ],
+ "Harmony and chord quality>major 7 / open 5ths": [
+  "rm_s6_pitch_quartal_open5.png"
+ ],
+ "Harmony and chord quality>quartal": [
+  "rm_s6_pitch_quartal_open5.png"
+ ],
+ "Melodic motion and contour>angular": [
+  "rm_s6_pitch_conjunct_angular.png"
+ ],
+ "Scale / mode type>mixolydian / dorian / aeolian / phrygian": [
+  "rm_s6_pitch_modes.png"
+ ],
+ "Tonality>Picardy 3rd / tierce de picardie": [
+  "rm_s6_pitch_picardy.png"
+ ],
+ "Tonality>bitonal / polytonal": [
+  "rm_s6_pitch_bitonal.png"
+ ],
+ "Texture type (named)>monophonic": [
+  "tex_mono.png"
+ ],
+ "Texture type (named)>homophonic": [
+  "tex_homo.png"
+ ],
+ "Texture type (named)>polyphonic / polyphony": [
+  "tex_poly.png"
+ ],
+ "Texture type (named)>heterophonic": [
+  "rm_s6_texture_heterophony.png"
+ ],
+ "Compositional-device textures>hocket / interlocking": [
+  "rm_s6_texture_hocket.png"
+ ],
+ "Compositional-device textures>canonic / canon": [
+  "s5_tex_canon.png"
+ ],
+ "Compositional-device textures>countermelody": [
+  "s5_tex_countermelody.png"
+ ],
+ "Layer relationship and count>doubled / doubling": [
+  "s5_tex_doubling.png"
+ ],
+ "Layer relationship and count>unison (as texture)": [
+  "tex_unison.png"
+ ],
+ "Development of ideas>sequential / sequence": [
+  "s5_sequence.png"
+ ],
+ "Development of ideas>inverted / inversion": [
+  "rm_s5_inversion.png"
+ ],
+ "Development of ideas>augmented / diminution": [
+  "s5_dim_aug.png"
+ ],
+ "Development of ideas>retrograde": [
+  "rm_s5_retrograde.png"
+ ],
+ "Development of ideas>fragmented / fragmentation": [
+  "rm_s5_fragmentation.png"
+ ],
+ "Repetition and recurring material>ostinato": [
+  "ex_melodic_ostinato.png"
+ ],
+ "Phrase and form shape>theme and variations": [
+  "s5_form_variations.png"
+ ],
+ "Phrase and form shape>through-composed": [
+  "s5_form_through.png"
+ ]
+}

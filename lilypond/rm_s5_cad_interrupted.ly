@@ -1,7 +1,6 @@
 \version "2.24.0"
-\paper { ragged-right = ##f line-width = 7\cm markup-system-spacing.padding = #3 indent = 0 tagline = ##f oddHeaderMarkup = ##f evenHeaderMarkup = ##f oddFooterMarkup = ##f evenFooterMarkup = ##f }
+\paper { ragged-right = ##f line-width = 7\cm markup-system-spacing.padding = #6 indent = 0 tagline = ##f oddHeaderMarkup = ##f evenHeaderMarkup = ##f oddFooterMarkup = ##f evenFooterMarkup = ##f }
 \layout { \context { \Score \omit BarNumber } }
-\markup \bold \fontsize #2 "Interrupted cadence"
 \score { <<
  \new ChordNames \chordmode { g2 a2:m }
  \new PianoStaff <<

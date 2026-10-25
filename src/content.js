@@ -69,7 +69,8 @@ n("Pitch","How high or low a sound is: melody, harmony and tonality.",[
     n("Definite pitch","A clear note you can sing back (flute, violin, xylophone)"),
     n("Indefinite pitch","No clear note (snare drum, cymbal)"),
     n("Melody","The main tune: pitches one after another"),
-    n("Harmony","Two or more different notes sounding together")
+    n("Harmony","Two or more different notes sounding together"),
+    n("Register","Which part of the range is used: high, middle or low")
   ]),
   n("The staff and clefs",[
     n("Staff (stave)","5 lines and 4 spaces"),
@@ -104,6 +105,7 @@ n("Pitch","How high or low a sound is: melody, harmony and tonality.",[
     n("By step","To the next-door note"),
     n("By leap","Jumping over notes"),
     n("Repeated notes","Staying on the same pitch"),
+    n("Conjunct and disjunct","Conjunct = mostly steps, smooth. Disjunct = mostly leaps, jumpy."),
     n("Contour","The shape of the melody",[
       n("Ascending","Going up"),n("Descending","Going down"),n("Arch","Up, then down"),
       n("Wave-like","Up and down, over and over"),n("Staying the same","Stays on one pitch, like a flat line")])
@@ -187,7 +189,7 @@ n("Performing media and timbre","Performing media are the instruments and voices
       n("Trombone","Uses a slide instead of valves"),n("Tuba","Lowest brass")]),
     n("Percussion","Striking, shaking or scraping",[
       n("Tuned","Play definite pitches",[n("Xylophone","Wooden bars"),n("Glockenspiel","Metal bars"),n("Timpani (kettledrums)","Large drums tuned to a note")]),
-      n("Untuned","Indefinite pitch",[n("Snare drum",""),n("Cymbals",""),n("Tambourine","Struck or shaken")]),
+      n("Untuned","Indefinite pitch",[n("Snare drum",""),n("Cymbals",""),n("Tambourine","Struck or shaken"),n("Clapsticks","Two hardwood sticks hit together. They keep the beat in many Aboriginal songs")]),
       n("Drum kit","Bass drum, snare, toms, hi-hat and cymbals, written on a percussion staff"),
       n("Maracas","Played by SHAKING"),n("Guiro","Played by SCRAPING")]),
     tip("Tricky ones","The saxophone is metal but it is WOODWIND because it uses a reed. Inside a piano, hammers strike strings.")
@@ -211,21 +213,9 @@ n("Performing media and timbre","Performing media are the instruments and voices
     n("Ensemble sizes","Solo (1), duet (2), trio (3), quartet (4), band, choir, orchestra (led by a conductor)"),
     n("Typical rock band","Electric guitar, bass guitar, drum kit, vocals (often keyboard)")
   ]),
-  n("Words to describe timbre","Pick the word that fits the sound you hear",[
-    n("Bright / brilliant","Lots of high overtones: light, clear and forward",[
-      n("silvery","Light, high and shining, e.g. a flute or glockenspiel up high"),n("pure","One clean tone with nothing rough in it, e.g. a treble voice or a soft flute"),n("sparkling","Little bright flashes of sound, e.g. glockenspiel or high piano"),n("shimmering","Bright and gently wavering, e.g. tremolo strings or a cymbal roll"),n("glittering","Lots of small, bright, high notes, e.g. a harp glissando or celesta"),n("vibrant","Full of energy and colour, e.g. a trumpet section or steel drums"),n("crisp","Clean and sharp at the start of each note, e.g. snare drum or staccato strings"),n("ringing","Keeps sounding after it is struck, e.g. a bell or triangle"),n("clear","Easy to hear with no blur or fuzz, e.g. a solo clarinet or acoustic guitar"),n("brilliant","Very bright and showy, e.g. trumpet or piccolo up high"),n("bright","Lots of high overtones, so it sounds light and forward, e.g. trumpet or xylophone")]),
-    n("Dark / dull / heavy","Few high overtones: deep, covered and weighty",[
-      n("muffled","Covered over, as if heard through a wall, e.g. a damped drum or palm-muted guitar"),n("booming","Deep, loud and full, e.g. bass drum or timpani"),n("rumbling","Low and continuous, e.g. a timpani roll or a low synth"),n("murky","Low and unclear, so the notes are hard to pick out, e.g. low strings in a thick chord"),n("muddy","Low notes blurred together so nothing is clear, e.g. bass guitar and low piano clashing"),n("hollow","Empty sounding with little body, e.g. a low clarinet or a woodblock"),n("muted","Softened with a mute, e.g. muted trumpet or con sord. strings"),n("dark","Few high overtones, so it sounds deep and shadowy, e.g. bassoon, cello or low clarinet"),n("heavy","Weighty and solid, e.g. distorted guitar chords or tuba"),n("dull","No brightness or edge, e.g. a soft felt mallet on a drum"),n("subdued","Held back and quiet in colour, e.g. a soft horn or muted strings")]),
-    n("Density (tone colour)","How thick or thin a sound feels",[
-      n("thin","Little body or weight, e.g. a single recorder or a violin bowed near the bridge"),n("homogeneous","Every sound blends into one colour, e.g. a string orchestra or a choir"),n("full","Lots of body and weight, e.g. a whole brass section or a pipe organ"),n("light","Not heavy, easy and airy, e.g. flute with pizzicato strings"),n("transparent","You can hear through it to every part, e.g. a small chamber group"),n("rich","Deep and full of overtones, e.g. a cello or a pipe organ")]),
-    n("Harsh / strident / forceful","Rough, hard or cutting sounds",[
-      n("penetrating","Cuts through everything else, e.g. a piccolo or a lead trumpet"),n("gruff","Low, rough and grumpy, e.g. tuba or bass trombone played hard"),n("growling","A low, rough buzz, e.g. a jazz trumpet growl or a distorted bass"),n("rasping","Rough and grating, e.g. a bow pressed hard on the string"),n("rough","Uneven and grainy, not smooth, e.g. a raspy voice or an overblown saxophone"),n("aggressive","Hard, loud and attacking, e.g. heavy metal guitar or accented brass"),n("choppy","Broken into short, hard bits, e.g. short staccato chords or chopped bow strokes"),n("coarse","Rough and unrefined, e.g. a distorted guitar or a growled vocal"),n("powerful","Strong and loud with lots of weight, e.g. full brass or a belted voice"),n("piercing","High and sharp enough to hurt your ears, e.g. a piccolo or a whistle"),n("relentless","Hard and driving and never lets up, e.g. pounding drums or repeated brass chords"),n("acute","Very high and sharp, e.g. piccolo or violin harmonics"),n("strident","Loud, harsh and insistent, e.g. trumpets playing fortissimo"),n("harsh","Unpleasant and rough on the ear, e.g. a heavily distorted guitar"),n("brittle","Hard, thin and sharp, as if it could snap, e.g. harpsichord or xylophone"),n("intense","Highly charged and concentrated, e.g. a high violin line with fast vibrato"),n("forceful","Played with great strength and weight, e.g. accented brass chords")]),
-    n("Material / sound-source","Words that name what makes the sound",[
-      n("panting","Short, breathy bursts like heavy breathing, e.g. a voice or flute using breath sounds"),n("rattling","Lots of small, loose hits at once, e.g. maracas, shakers or snare wires"),n("hoarse","Rough, croaky and breathy, e.g. a strained singing voice"),n("fluttering","A fast, wavering sound, e.g. flutter-tongue on the flute"),n("jangly","Bright, clashing metal sounds, e.g. a chiming electric guitar or a tambourine"),n("reverberant","Rings on as if in a big space, e.g. a choir in a cathedral or lots of reverb"),n("scratchy","Rough, scraping surface noise, e.g. a bow pressed hard or an old record"),n("wheezing","Thin, breathy and strained, e.g. an accordion or harmonica"),n("synthetic","Made by electronics rather than a real instrument, e.g. a synth pad"),n("breathy","You can hear the air in it, e.g. a soft flute or a whispery voice"),n("reedy","The buzzing, nasal edge of a reed, e.g. oboe, clarinet or saxophone"),n("brassy","Bright, buzzing and blaring, e.g. trumpets and trombones"),n("distorted","Fuzzy and gritty from overdriven electronics, e.g. a rock guitar"),n("airy","Light, with lots of breath or space, e.g. pan flute or a soft synth pad"),n("artificial","Clearly not natural or acoustic, e.g. heavy autotune or a robotic synth"),n("electronic","Made or changed by electronics, e.g. synthesiser or drum machine"),n("buzzing","A fast vibration you can hear, e.g. kazoo, didgeridoo or brass lips"),n("resonant","Full and vibrating, rings on with body, e.g. a cello or a big drum"),n("bell-like","Clear and ringing with a long fade, e.g. glockenspiel or tubular bells"),n("nasal","As if played or sung through the nose, e.g. oboe or a pinched voice"),n("percussive","A hard, strong attack on each note, e.g. drums, slap bass or hammered piano chords"),n("echoey","The sound repeats like an echo, e.g. a delay effect"),n("dry","No reverb or echo, close and plain, e.g. a voice recorded in a small room"),n("wooden / woody","The warm, knocking sound of wood, e.g. xylophone, woodblock or low clarinet"),n("metallic","Hard and ringing like metal, e.g. cymbals, triangle or steel drums")]),
-    n("Mood / character","Words for the feeling a sound gives you",[
-      n("grand","Big, impressive and stately, e.g. full orchestra or pipe organ"),n("haunting","Sad and strange, and it stays with you, e.g. a solo voice or flute in a big empty space"),n("majestic","Royal and noble, e.g. a slow brass fanfare"),n("sombre","Dark, serious and sad, e.g. low strings or a slow brass chorale"),n("languid","Slow, relaxed and lazy, e.g. a slow saxophone melody"),n("eerie","Strange and spooky, e.g. a theremin or high string harmonics"),n("dramatic","Big contrasts that grab your attention, e.g. sudden loud brass and timpani"),n("playful","Light, bouncy and cheeky, e.g. pizzicato strings or staccato bassoon"),n("delicate","Soft, light and fragile, e.g. harp, celesta or a high solo violin")]),
-    n("Warm / mellow / smooth","Rounded, soft-edged and pleasant sounds",[
-      n("sonorous","Deep, full and ringing, e.g. cello, horn or a bass voice"),n("smooth","No bumps or rough edges, notes flow together, e.g. legato strings"),n("warm","Rounded and full in the low-middle, e.g. cello, horn or alto saxophone"),n("gentle","Soft and calm with no hard edges, e.g. a nylon-string guitar"),n("even","Every note the same in tone and volume, e.g. a steady legato scale"),n("cantabile","In a singing style, e.g. a violin or cello melody that sounds like a voice"),n("sweet","Pleasant, soft and high, e.g. a solo violin or a soft soprano"),n("fluid","Flows easily from note to note, e.g. a flute run or a harp"),n("ethereal","Light, airy and otherworldly, e.g. a high choir or a synth pad with reverb"),n("lyrical","Song-like and expressive, e.g. a long legato melody on clarinet or violin"),n("floating","Drifts along with no weight, e.g. high held strings or a soft synth"),n("mellow","Soft, rounded and relaxed, e.g. French horn or flugelhorn")])
+  n("Words to describe timbre",[
+    n("bright, dark, warm, mellow",""),n("harsh, nasal, reedy, metallic",""),
+    n("breathy, hollow, rich, thin",""),n("piercing, booming, smooth, raspy","")
   ]),
   ask("Which instruments or voices can you hear?","Which family?","How is each one being played?","Choose two words to describe the timbre.")
 ]),
@@ -239,6 +229,11 @@ n("Dynamics and expression","Dynamics is how loud or soft the music is. Expressi
   n("Gradual changes",[
     n("Crescendo (cresc.)","Gradually getting louder. Written as a hairpin opening out, or the word cresc. with a dashed line"),
     n("Diminuendo / decrescendo (dim.)","Gradually getting softer")
+  ]),
+  n("Sudden changes","The volume changes straight away, with no build",[
+    n("subito p / subito f","Suddenly soft / suddenly loud"),
+    n("sforzando (sfz)","A sudden, forced accent on one note or chord"),
+    n("fortepiano (fp)","Loud, then soft straight away")
   ]),
   n("Articulation",[
     n("Staccato (dots)","Short and detached"),
