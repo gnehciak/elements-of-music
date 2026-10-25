@@ -63,6 +63,9 @@ button,input{font:inherit;color:inherit}
 .stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab;
   background:var(--marks) var(--px,0px) var(--py,0px)/var(--ps,120px) var(--ps,120px),var(--paper)}
 .stage.grabbing{cursor:grabbing}
+/* clicking and dragging the map should never select card text */
+.stage,.bill,.zoom,.mini,.hint{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.bill input{-webkit-user-select:text;user-select:text}
 .world{position:absolute;left:0;top:0;transform-origin:0 0}
 .world>svg{position:absolute;left:0;top:0;width:1px;height:1px;overflow:visible;pointer-events:none}
 .world path{fill:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1;transition:opacity .2s;
@@ -113,6 +116,7 @@ button,input{font:inherit;color:inherit}
 .fplay:hover{background:var(--ink);color:var(--sheet)}
 .viewer .fplay{--b:var(--ink);--o:var(--sheet)}
 .node.open .pic{border-color:var(--o)}
+.stage.far .node .pic img,.stage.far .node .pic .play{visibility:hidden}
 .node .pic img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .2s cubic-bezier(.2,.8,.2,1)}
 .node .pic:hover img{transform:scale(1.06)}
 .node .credit{font-size:10.5px;line-height:1.25;margin-top:3px;color:var(--muted)}
@@ -363,7 +367,7 @@ function build(src,parent,depth,branch){
       let w=Math.max(100,Math.min(300,Math.sqrt(17000*r))); w=Math.round(Math.min(w,150*r)); const hh=Math.round(w/r);
       maxW=Math.max(maxW,w);
       const pic=mk("span","pic"); pic.style.width=w+"px"; pic.style.height=hh+"px";
-      const im=mk("img"); im.src="images/"+file; im.alt=m[2]; im.loading="lazy"; im.decoding="async"; im.draggable=false;
+      const im=mk("img"); im.src="thumbs/"+file.replace(/\.\w+$/,".webp"); im.alt=m[2]; im.loading="lazy"; im.decoding="async"; im.draggable=false;
       pic.appendChild(im); body.appendChild(pic);
       pic.addEventListener("click",e=>{ e.stopPropagation(); if(!dragged) openPics(o,file) });
       if(m[4]){ const pb=playButton(file,"play"); pb.addEventListener("click",e=>{ e.stopPropagation(); if(!dragged||e.detail===0) playAudio(file) }); pic.appendChild(pb) }
@@ -473,6 +477,7 @@ function applyView(){
   let s=120*vc.k; while(s<70) s*=2; while(s>260) s/=2;
   stage.style.setProperty("--ps",s+"px"); stage.style.setProperty("--px",vc.x+"px"); stage.style.setProperty("--py",vc.y+"px");
   zlabel.textContent=Math.round(vc.k*100)+"%";
+  stage.classList.toggle("far",vc.k<0.3);   /* pictures are specks this far out: skip painting them */
   drawMini();
 }
 function drawNode(o){

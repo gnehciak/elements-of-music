@@ -20,6 +20,22 @@ assert not missing, f"image-map.json names files with no caption entry: {missing
 more = json.loads((here / "src/readmore.json").read_text())
 missing = {f["file"] for st in more.values() for e in st.values() for f in e.get("fig", [])} - set(meta)
 assert not missing, f"readmore.json names figures with no caption entry: {missing}"
+# Card-sized copies in thumbs/ as WebP: same box maths as the template, at 1.25x the CSS size.
+# Cards load these; the viewer and Read more load the full image. Full-size images on every card
+# made "Open all" decode ~600 MB of pictures and crash phones and school laptops.
+from math import sqrt
+from PIL import Image
+(here / "thumbs").mkdir(exist_ok=True)
+for f in {f for m in (img, img5, img6) for v in m.values() for f in v}:
+    src, dst = here / "images" / f, here / "thumbs" / (f.rsplit(".", 1)[0] + ".webp")
+    if dst.exists() and dst.stat().st_mtime >= src.stat().st_mtime:
+        continue
+    w0, h0 = meta[f][0], meta[f][1]; r = w0 / h0
+    w = min(w0, round(min(max(100, min(300, sqrt(17000 * r))), 150 * r) * 1.25))
+    im = Image.open(src)
+    photo = f.endswith(".jpg")
+    im = im.convert("RGB" if photo else "L").resize((w, max(1, round(w / r))), Image.LANCZOS)
+    im.save(dst, "WEBP", quality=70 if photo else 80, method=6)
 dump = lambda o: json.dumps(o, ensure_ascii=False, separators=(",", ":"))
 page = tpl.replace("/*__CONTENT__*/", content).replace("/*__CONTENT5__*/", content5).replace("/*__CONTENT6__*/", content6).replace("/*__IMG__*/", dump(img)).replace("/*__IMG5__*/", dump(img5)).replace("/*__IMG6__*/", dump(img6)).replace("/*__META__*/", dump(meta)).replace("/*__MORE__*/", dump(more))
 head = '<!doctype html>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'

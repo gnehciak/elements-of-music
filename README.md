@@ -6,8 +6,9 @@ Images for the Stage 4 *Elements of Music* reference (NSW Music 7–10 Syllabus,
 
 - `index.html` – the interactive mindmap (open it in a browser; it loads pictures from `images/`)
 - `src/` + `build.py` – mindmap source: `content.js` (the text), `image-map.json` (which picture goes on which node), `readmore.json` (the Read more pop-up for every card: what it is, how it's used, what to listen for, an example analysis sentence and extra pictures), `template.html` (design and behaviour). Run `python3 build.py` to rebuild `index.html`
-- `audio/` + `tools/audio.py` – the Listen buttons: each mp3 is rendered from a LilyPond source through MIDI and MuseScore 4 (MuseSounds). Add a name to `AUDIO` in the script and run it, then `python3 build.py`
+- `audio/` + `tools/audio.py` – the Listen buttons: each mp3 is rendered from a LilyPond source to MIDI (with articulate.ly) and played by FluidSynth (`brew install fluidsynth`) through MuseScore's MS Basic soundfont, so staccato, accents and dynamics are heard as written. Add a name to `AUDIO` in the script and run it, then `python3 build.py`
 - `src/content-stage6.js` – generated from the Notion database; edit the text through `src/readmore.json` and the card titles there
+- `thumbs/` – small WebP copies of the pictures for the cards, made by `build.py`; the viewer and Read more use the full images
 - `lilypond/` – LilyPond sources for the notation graphics added later (the `rm_` files are the Read more examples)
 - `images/` – 218 notation graphics and instrument photos, exported from the Notion page
 - `captions.json` – file name, caption, credit and pixel size for every image

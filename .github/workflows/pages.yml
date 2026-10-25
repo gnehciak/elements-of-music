@@ -30,6 +30,7 @@ jobs:
           cp index.html _site/
           cp -r images _site/
           cp -r audio _site/
+          cp -r thumbs _site/
           touch _site/.nojekyll
           cd _site
           git init -q -b gh-pages
