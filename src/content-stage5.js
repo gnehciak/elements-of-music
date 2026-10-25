@@ -19,7 +19,8 @@ n("Duration","The length of sounds and silences. Stage 5 adds more complex note 
     n("Cross-rhythm","An accent pattern that cuts across the metre, e.g. 3 + 3 + 2 quavers over a steady 4/4 beat"),
     n("Swung (swing)","Pairs of quavers played long-short, like a triplet with the first two notes tied. Written as even quavers. Typical of jazz and blues."),
     n("Diminution","A rhythm repeated in shorter note values (usually half) – it sounds faster"),
-    n("Augmentation","A rhythm repeated in longer note values (usually double) – it sounds slower")
+    n("Augmentation","A rhythm repeated in longer note values (usually double) – it sounds slower"),
+    n("Hemiola","Two bars of 3 beats felt as three groups of 2. Common just before a cadence.")
   ]),
   ask("Does the metre stay the same?","Can you conduct it in 2, 3 or 4 – or is it irregular?","Are the quavers straight or swung?","Does the piece start with an up-beat?","Can you hear two rhythms pulling against each other?")
 ]),
@@ -31,7 +32,7 @@ n("Pitch","How high or low sounds are – melody, harmony and tonality. Stage 5 
     n("Chromaticism","Using notes from outside the key (extra sharps, flats and naturals), often moving by semitone"),
     n("Motif","A short idea that is developed through a piece (see Stage 4)"),
     n("Ornamentation","Decorating a note",[
-      n("Trill",""),n("Mordent",""),n("Turn",""),
+      n("Trill","Rapidly alternate with the note above"),n("Mordent","Main note, neighbour, main note: once, quickly"),n("Turn","Note above, main note, note below, main note"),
       n("Grace notes","Acciaccatura = crushed, appoggiatura = leaning")])
   ]),
   n("Scales",[
@@ -59,7 +60,7 @@ n("Pitch","How high or low sounds are – melody, harmony and tonality. Stage 5 
       n("Imperfect: ends on V","Unfinished. A comma."),
       n("Interrupted: V – vi","A surprise – you expect I but get a minor chord")]),
     n("Extended chords","A triad with more thirds stacked on top: 7ths, 9ths and beyond. Common in jazz, funk and R&B."),
-    n("Modulation","Changing key during a piece. A new key signature confirms it."),
+    n("Modulation","Changing key during a piece. Accidentals or a new key signature show it; a cadence in the new key confirms it."),
     n("Pedal point","A note held (or repeated) in the bass while the chords change above it")
   ]),
   n("Other ways of notating music",[
@@ -93,7 +94,8 @@ n("Performing media and timbre","Performing media are the voices, instruments an
   ]),
   n("Range and register",[
     n("Range","The distance from the lowest to the highest note an instrument or voice can produce"),
-    n("Register","Which part of that range is being used: low, middle or high. A clarinet is dark and woody down low, bright and piercing up high.")
+    n("Register","Which part of that range is being used: low, middle or high. A clarinet is dark and woody down low, bright and piercing up high."),
+    n("Transposing instruments","The written note is not the note that sounds. A B flat clarinet or trumpet sounds a tone lower than written.")
   ]),
   n("Directions for techniques",[
     n("pizz. / arco","Strings: pluck / return to the bow"),
@@ -133,7 +135,7 @@ n("Dynamics and expression","Dynamics is the volume of the music; expression is 
   n("Electronic manipulation",[
     n("Looping","Recording a short phrase and repeating it over and over, often layering new loops on top (loop pedals, DAWs, hip hop and EDM)"),
     n("Compression","Automatically turning down the loudest moments so the overall level is more even (and can then be made louder)"),
-    n("Sustain","How long a sound keeps ringing. On a synth it is the S in the ADSR envelope; on guitar it can be extended with a compressor or sustain pedal."),
+    n("Sustain","On a synth, the S in the ADSR envelope: the level a note holds at while the key is down. Guitarists make notes ring longer with a compressor or distortion."),
     n("From Stage 4","Distortion, delay, reverb"),
     n("Others","Chorus, autotune, EQ, panning, sampling")
   ]),
@@ -170,6 +172,7 @@ n("Structure","How music is organised – the big sections, the small building b
     n("Augmentation / diminution","Same idea in longer / shorter note values"),
     n("Fragmentation","Only part of the idea is used and repeated"),
     n("Inversion","The shape is turned upside down"),
+    n("Retrograde","The idea is played backwards, last note first"),
     n("Modulation","The idea returns in a new key")
   ]),
   n("What signals a new section",[

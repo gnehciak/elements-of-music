@@ -65,9 +65,6 @@
  "Rhythmic devices>Backbeat": [
   "ex_backbeat.png"
  ],
- "Bar lines>Final (double) bar line": [
-  "final_barline.png"
- ],
  "Bar lines>Repeat sign": [
   "repeat_sign.png"
  ],
@@ -470,5 +467,95 @@
  ],
  "Signs that change the order>Coda": [
   "sign_coda.png"
+ ],
+ "Metre and time signatures>Bottom number": [
+  "rm_s4_dur_bottom_number.png"
+ ],
+ "Metre and time signatures>Simple time": [
+  "rm_s4_dur_simple_beat.png"
+ ],
+ "Metre and time signatures>Compound time": [
+  "rm_s4_dur_compound_beat.png"
+ ],
+ "Rhythmic devices>Free rhythm": [
+  "rm_s4_dur_free_rhythm.png"
+ ],
+ "Rhythmic devices>Cycles": [
+  "form_cyclic.png"
+ ],
+ "Duration>Bar lines": [
+  "rm_s4_dur_barlines.png"
+ ],
+ "Articulation>Tie or slur?": [
+  "rm_s4_tie_or_slur.png"
+ ],
+ "Expressive techniques and effects>Vibrato": [
+  "rm_s4_vibrato.png"
+ ],
+ "Sound sources>Electronic": [
+  "synthesizer.jpg"
+ ],
+ "Playing techniques>Bowing": [
+  "rm_s4_bowing.png"
+ ],
+ "Playing techniques>Plucking": [
+  "harp.jpg"
+ ],
+ "Playing techniques>Strumming": [
+  "acoustic_guitar.jpg"
+ ],
+ "Playing techniques>Striking": [
+  "timpani.jpg"
+ ],
+ "Playing techniques>Shaking": [
+  "maracas.jpg"
+ ],
+ "Playing techniques>Scraping": [
+  "guiro.jpg"
+ ],
+ "Voices and ensembles>A cappella": [
+  "rm_s4_satb.png"
+ ],
+ "Key ideas>Definite pitch": [
+  "xylophone.jpg"
+ ],
+ "Key ideas>Indefinite pitch": [
+  "snare_drum.png"
+ ],
+ "The staff and clefs>Clef": [
+  "rm_s4_clef_same_line.png"
+ ],
+ "Harmony and chords>Chord": [
+  "rm_s4_block_broken.png"
+ ],
+ "Density>Thin": [
+  "flute.jpg"
+ ],
+ "Density>Thick": [
+  "rm_s4_tex_thin_thick.png"
+ ],
+ "Roles of layers>Rhythmic": [
+  "drum_kit.jpg"
+ ],
+ "Roles of layers>Harmonic": [
+  "rm_s4_tex_block_broken.png"
+ ],
+ "Microstructure>Riff / ostinato": [
+  "ex_riff.png"
+ ],
+ "Bar lines>Final bar line": [
+  "final_barline.png"
+ ],
+ "Rests (silence)>Semiquaver rest": [
+  "rest_semiquaver.png"
+ ],
+ "Accidentals>Enharmonic notes": [
+  "rm_s4_enharmonic.png"
+ ],
+ "Pitch devices>Sequence": [
+  "s5_sequence.png"
+ ],
+ "Signs that change the order>Dal Segno (D.S.)": [
+  "rm_s4_ds_segno.png"
  ]
 }

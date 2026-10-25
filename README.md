@@ -5,8 +5,8 @@ Live: https://elements-of-music.vercel.app (mirror: https://gnehciak.github.io/e
 Images for the Stage 4 *Elements of Music* reference (NSW Music 7–10 Syllabus, 2024), plus the interactive mindmap that uses them.
 
 - `index.html` – the interactive mindmap (open it in a browser; it loads pictures from `images/`)
-- `src/` + `build.py` – mindmap source: `content.js` (the text), `image-map.json` (which picture goes on which node), `template.html` (design and behaviour). Run `python3 build.py` to rebuild `index.html`
-- `lilypond/` – LilyPond sources for the notation graphics added later
+- `src/` + `build.py` – mindmap source: `content.js` (the text), `image-map.json` (which picture goes on which node), `readmore.json` (the Read more pop-up for every card: what it is, how it's used, what to listen for, an example analysis sentence and extra pictures), `template.html` (design and behaviour). Run `python3 build.py` to rebuild `index.html`
+- `lilypond/` – LilyPond sources for the notation graphics added later (the `rm_` files are the Read more examples)
 - `images/` – 218 notation graphics and instrument photos, exported from the Notion page
 - `captions.json` – file name, caption, credit and pixel size for every image
 

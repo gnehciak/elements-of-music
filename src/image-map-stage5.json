@@ -195,5 +195,113 @@
  ],
  "Microstructures>Colotomic structure": [
   "s5_colotomic.png"
+ ],
+ "Textural devices>Unison": [
+  "tex_unison.png"
+ ],
+ "Textural devices>Call and response": [
+  "rm_s5_call_response.png"
+ ],
+ "Developing musical material>Repetition": [
+  "rm_s5_repetition.png"
+ ],
+ "Developing musical material>Variation": [
+  "rm_s5_variation.png"
+ ],
+ "Developing musical material>Contrast": [
+  "rm_s5_contrast.png"
+ ],
+ "Developing musical material>Sequence": [
+  "s5_sequence.png"
+ ],
+ "Microstructures>Sequence": [
+  "s5_sequence.png"
+ ],
+ "Developing musical material>Augmentation / diminution": [
+  "s5_dim_aug.png"
+ ],
+ "Developing musical material>Fragmentation": [
+  "rm_s5_fragmentation.png"
+ ],
+ "Developing musical material>Inversion": [
+  "rm_s5_inversion.png"
+ ],
+ "Developing musical material>Modulation": [
+  "s5_modulation.png"
+ ],
+ "What signals a new section>A cadence": [
+  "s5_cadences.png"
+ ],
+ "What signals a new section>A drum fill": [
+  "rm_s5_drum_fill.png"
+ ],
+ "Directions for techniques>pizz. / arco": [
+  "ex_pizz_arco.png"
+ ],
+ "Directions for techniques>sul pont. / sul tasto": [
+  "rm_s5_sul_pont_tasto.png"
+ ],
+ "Gradations of dynamics>ppp and fff": [
+  "rm_s5_ppp_fff.png"
+ ],
+ "Gradations of dynamics>subito": [
+  "rm_s5_subito.png"
+ ],
+ "Gradations of dynamics>poco a poco": [
+  "rm_s5_poco_a_poco.png"
+ ],
+ "Combinations>Large ensembles": [
+  "ex_orchestra_layout.png"
+ ],
+ "Techniques for specific media>Strings": [
+  "rm_s5_string_techniques.png"
+ ],
+ "Techniques for specific media>Guitar / bass": [
+  "rm_s5_guitar_techniques.png"
+ ],
+ "Techniques for specific media>Piano / keys": [
+  "rm_s5_piano_pedal.png"
+ ],
+ "Ornamentation>Trill": [
+  "rm_s5_trill.png"
+ ],
+ "Ornamentation>Mordent": [
+  "rm_s5_mordent.png"
+ ],
+ "Ornamentation>Turn": [
+  "rm_s5_turn.png"
+ ],
+ "Ornamentation>Grace notes": [
+  "rm_s5_grace.png"
+ ],
+ "Cadence>Perfect: V – I": [
+  "rm_s5_cad_perfect.png"
+ ],
+ "Cadence>Plagal: IV – I": [
+  "rm_s5_cad_plagal.png"
+ ],
+ "Cadence>Imperfect: ends on V": [
+  "rm_s5_cad_imperfect.png"
+ ],
+ "Cadence>Interrupted: V – vi": [
+  "rm_s5_cad_interrupted.png"
+ ],
+ "Melodic devices>Motif": [
+  "ex_motif.png"
+ ],
+ "By number of notes>Pentatonic": [
+  "scale_cpent.png"
+ ],
+ "Scales>Chromatic": [
+  "scale_chromatic.png"
+ ],
+ "Rhythmic devices>Hemiola": [
+  "rm_s5_hemiola.png"
+ ],
+ "Range and register>Transposing instruments": [
+  "rm_s5_transposing.png"
+ ],
+ "Developing musical material>Retrograde": [
+  "rm_s5_retrograde.png"
  ]
 }

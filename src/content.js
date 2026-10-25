@@ -14,7 +14,8 @@ n("Duration","The length of sounds and silences in music – beat, tempo, note a
       n("Moderato","Moderate speed"),n("Allegro","Fast and lively"),n("Presto","Very fast")]),
     n("Changing tempo",[
       n("Accelerando (accel.)","Gradually getting faster"),
-      n("Ritardando (rit.) / Rallentando (rall.)","Gradually getting slower")]),
+      n("Ritardando (rit.) / Rallentando (rall.)","Gradually getting slower"),
+      n("a tempo","Back to the original speed after a rit. or accel.")]),
     n("Reading a tempo marking","Sits above the first bar, e.g. Allegro ♩ = 120",[
       n("Allegro","The Italian term – fast and lively"),
       n("♩ = 120","120 crotchet beats per minute (120 BPM) – two beats every second")])
@@ -34,7 +35,8 @@ n("Duration","The length of sounds and silences in music – beat, tempo, note a
     n("Semibreve rest","4 beats. HANGS below the line."),
     n("Minim rest","2 beats. SITS on the line like a hat."),
     n("Crotchet rest","1 beat"),
-    n("Quaver rest","Half a beat")
+    n("Quaver rest","Half a beat"),
+    n("Semiquaver rest","A quarter of a beat")
   ]),
   n("Metre and time signatures",[
     n("Top number","How many beats in each bar"),
@@ -55,7 +57,7 @@ n("Duration","The length of sounds and silences in music – beat, tempo, note a
     n("Cycles","Repeating rhythmic cycles, common in many global music cultures")
   ]),
   n("Bar lines",[
-    n("Final (double) bar line","The end of the piece"),
+    n("Final bar line","A thin line then a thick line: the end of the piece"),
     n("Repeat sign","Go back and play the section again"),
     n("Start and end repeat signs","Play the bars between the dots twice, then go on")
   ]),
@@ -89,13 +91,14 @@ n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
     tip("Finding C","C is always the white key to the left of the group of TWO black keys."),
     n("Semitone","The smallest step, from one key to the very next key (E to F, or C to C sharp)"),
     n("Tone","Two semitones (C to D – there is a black key in between)"),
-    n("Octave","From one note to the next note with the same letter name (8 letter names apart)"),
+    n("Octave","From one note to the next note with the same letter name (the 8th letter name, counting both notes)"),
     n("Interval","The distance between any two pitches. Count both notes: C to E is C-D-E = a 3rd.")
   ]),
   n("Accidentals",[
     n("Sharp ♯","Raises the note by a semitone (F sharp)"),
     n("Flat ♭","Lowers the note by a semitone (B flat)"),
-    n("Natural ♮","Cancels a sharp or flat")
+    n("Natural ♮","Cancels a sharp or flat"),
+    n("Enharmonic notes","Two names for the same note, e.g. F sharp and G flat")
   ]),
   n("How melodies move",[
     n("By step","To the next-door note"),
@@ -103,7 +106,7 @@ n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
     n("Repeated notes","Staying on the same pitch"),
     n("Contour","The shape of the melody",[
       n("Ascending","Going up"),n("Descending","Going down"),n("Arch","Up, then down"),
-      n("Wave-like","Up and down, over and over"),n("Staying the same","")])
+      n("Wave-like","Up and down, over and over"),n("Staying the same","Stays on one pitch, like a flat line")])
   ]),
   n("Tonality",[
     n("Major","Usually sounds bright and happy",[
@@ -135,7 +138,8 @@ n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
   n("Pitch devices",[
     n("Riff","A short, catchy repeated pattern (rock, pop, jazz – often guitar or bass)"),
     n("Ostinato","A repeated melodic pattern"),
-    n("Drone","A long sustained note held underneath the music (bagpipes, didgeridoo)")
+    n("Drone","A long sustained note held underneath the music (bagpipes, didgeridoo)"),
+    n("Sequence","A short melodic pattern repeated straight away, a step higher or lower")
   ]),
   n("Ways of notating pitch",[
     n("Staff notation","Treble and bass clef"),
@@ -167,7 +171,7 @@ n("Texture","The layers of sound and how they combine.",[
 
 n("Performing media and timbre","Performing media are the instruments and voices that perform the music. Timbre (tone colour) is the unique quality of a sound – how you tell a trumpet from a violin on the same note.",[
   n("Sound sources",[
-    n("Voices",""),n("Instruments",""),
+    n("Voices","Singing, speaking, rapping and beatboxing"),n("Instruments","Acoustic instruments: strings, wind and percussion"),
     n("Electronic","Synthesiser, drum machine, samples"),
     n("Natural / environmental","Body percussion, found sounds")
   ]),
@@ -176,7 +180,7 @@ n("Performing media and timbre","Performing media are the instruments and voices
       n("Violin","Highest string instrument"),n("Viola","Slightly bigger and lower than the violin"),n("Cello","Played sitting down"),
       n("Double bass","Lowest string instrument"),n("Harp","Plucked strings. The guitar is a string instrument too.")]),
     n("Woodwind","Blowing across a hole (flute) or through a reed",[
-      n("Flute","Blow across the hole (no reed)"),n("Oboe","Double reed"),n("Clarinet","Single reed"),n("Bassoon","Lowest woodwind, double reed"),
+      n("Flute","Blow across the hole (no reed)"),n("Oboe","Double reed"),n("Clarinet","Single reed"),n("Bassoon","Lowest regular woodwind (only the contrabassoon goes lower), double reed"),
       n("Saxophone","Metal body but a single reed, so it is woodwind")]),
     n("Brass","Buzzing the lips into a mouthpiece",[
       n("Trumpet","Highest brass, three valves"),n("French horn","Coiled tubing, mellow sound"),
@@ -259,6 +263,7 @@ n("Structure","How the sections of the music are organised.",[
   n("Song sections",[
     n("Intro","Opening section"),
     n("Verse","Same melody, DIFFERENT words each time (tells the story)"),
+    n("Pre-chorus","A short build-up between the verse and the chorus"),
     n("Chorus","Same melody AND same words each time (the hook)"),
     n("Bridge","A contrasting section, usually heard once"),
     n("Outro (coda)","Closing section")
@@ -273,6 +278,7 @@ n("Structure","How the sections of the music are organised.",[
     n("Repeat sign","Play the section again"),
     n("1st and 2nd time bars","First time play bracket 1 and repeat; second time skip to bracket 2"),
     n("Da Capo (D.C.)","Go back to the beginning"),
+    n("Dal Segno (D.S.)","Go back to the sign (segno), not the beginning"),
     n("Fine","The end. D.C. al Fine = go back to the beginning and stop at Fine."),
     n("Coda","The ending section")
   ]),
