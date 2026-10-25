@@ -275,24 +275,6 @@
  "Voices and ensembles>Voice types (SATB)": [
   "ex_voice_ranges.png"
  ],
- "Dynamics>pp – pianissimo": [
-  "dyn_pp.png"
- ],
- "Dynamics>p – piano": [
-  "dyn_p.png"
- ],
- "Dynamics>mp – mezzo piano": [
-  "dyn_mp.png"
- ],
- "Dynamics>mf – mezzo forte": [
-  "dyn_mf.png"
- ],
- "Dynamics>f – forte": [
-  "dyn_f.png"
- ],
- "Dynamics>ff – fortissimo": [
-  "dyn_ff.png"
- ],
  "Dynamics>In a real melody": [
   "ex_dynamics_passage.png"
  ],
@@ -329,18 +311,6 @@
  ],
  "Expressive techniques and effects>Why Italian?": [
   "ex_expression_text.png"
- ],
- "Macrostructure>Binary – A B": [
-  "form_binary.png"
- ],
- "Macrostructure>Ternary – A B A": [
-  "form_ternary.png"
- ],
- "Macrostructure>Rondo – A B A C A": [
-  "form_rondo.png"
- ],
- "Macrostructure>Verse–chorus": [
-  "form_verse_chorus.png"
  ],
  "Macrostructure>12-bar blues": [
   "form_12bar_blues.png"
@@ -398,18 +368,6 @@
  ],
  "Contour>Staying the same": [
   "mel_repeat.png"
- ],
- "Primary chords in C major>I – Tonic": [
-  "triad_c.png"
- ],
- "Primary chords in C major>IV – Subdominant": [
-  "triad_f.png"
- ],
- "Primary chords in C major>V – Dominant": [
-  "triad_g.png"
- ],
- "Primary chords in C major>V7 – Dominant seventh": [
-  "chord_g7.png"
  ],
  "Pitch devices>Ostinato": [
   "ex_melodic_ostinato.png"
@@ -557,5 +515,47 @@
  ],
  "Signs that change the order>Dal Segno (D.S.)": [
   "rm_s4_ds_segno.png"
+ ],
+ "Primary chords in C major>I (Tonic)": [
+  "triad_c.png"
+ ],
+ "Primary chords in C major>IV (Subdominant)": [
+  "triad_f.png"
+ ],
+ "Primary chords in C major>V (Dominant)": [
+  "triad_g.png"
+ ],
+ "Primary chords in C major>V7 (Dominant seventh)": [
+  "chord_g7.png"
+ ],
+ "Dynamics>pp (pianissimo)": [
+  "dyn_pp.png"
+ ],
+ "Dynamics>p (piano)": [
+  "dyn_p.png"
+ ],
+ "Dynamics>mp (mezzo piano)": [
+  "dyn_mp.png"
+ ],
+ "Dynamics>mf (mezzo forte)": [
+  "dyn_mf.png"
+ ],
+ "Dynamics>f (forte)": [
+  "dyn_f.png"
+ ],
+ "Dynamics>ff (fortissimo)": [
+  "dyn_ff.png"
+ ],
+ "Macrostructure>Binary (A B)": [
+  "form_binary.png"
+ ],
+ "Macrostructure>Ternary (A B A)": [
+  "form_ternary.png"
+ ],
+ "Macrostructure>Rondo (A B A C A)": [
+  "form_rondo.png"
+ ],
+ "Macrostructure>Verse-chorus": [
+  "form_verse_chorus.png"
  ]
 }

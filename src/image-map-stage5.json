@@ -274,17 +274,8 @@
  "Ornamentation>Grace notes": [
   "rm_s5_grace.png"
  ],
- "Cadence>Perfect: V – I": [
-  "rm_s5_cad_perfect.png"
- ],
- "Cadence>Plagal: IV – I": [
-  "rm_s5_cad_plagal.png"
- ],
  "Cadence>Imperfect: ends on V": [
   "rm_s5_cad_imperfect.png"
- ],
- "Cadence>Interrupted: V – vi": [
-  "rm_s5_cad_interrupted.png"
  ],
  "Melodic devices>Motif": [
   "ex_motif.png"
@@ -303,5 +294,14 @@
  ],
  "Developing musical material>Retrograde": [
   "rm_s5_retrograde.png"
+ ],
+ "Cadence>Perfect: V-I": [
+  "rm_s5_cad_perfect.png"
+ ],
+ "Cadence>Plagal: IV-I": [
+  "rm_s5_cad_plagal.png"
+ ],
+ "Cadence>Interrupted: V-vi": [
+  "rm_s5_cad_interrupted.png"
  ]
 }

@@ -279,7 +279,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <div class="floor">
   <main class="stage" id="stage"><div class="world" id="world"></div></main>
   <div class="mini" id="mini" title="Whole map. Click or drag to move"><canvas id="minic"></canvas></div>
-  <p class="hint" id="hint"><b>Two fingers</b> move the map · <b>pinch</b> zooms · <b>click</b> opens a branch</p>
+  <p class="hint" id="hint"><b>Two fingers</b> move the map, <b>pinch</b> zooms, <b>click</b> opens a branch</p>
   <div class="zoom">
     <button class="zb" id="zin" type="button" aria-label="Zoom in"><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12"/></svg></button>
     <output id="zlabel" aria-label="Zoom level">100%</output>
@@ -597,7 +597,7 @@ const viewer=document.getElementById("viewer"), vBody=document.getElementById("v
 function openPics(o,firstFile){
   vTitle.textContent=o.t; vBody.textContent="";
   o.files.slice().sort((a,b)=>(b===firstFile)-(a===firstFile)).forEach(file=>{
-    const m=META[file], fig=mk("figure"), im=mk("img"), cap=mk("figcaption",null,m[2]+(m[3]?" — Photo: "+m[3]:""));
+    const m=META[file], fig=mk("figure"), im=mk("img"), cap=mk("figcaption",null,m[2]+(m[3]?" (Photo: "+m[3]+")":""));
     im.src="images/"+file; im.alt=m[2]; im.width=m[0]; im.height=m[1];
     fig.appendChild(im); fig.appendChild(cap); vBody.appendChild(fig);
   });

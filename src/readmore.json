@@ -749,72 +749,6 @@
     }
    ]
   },
-  "Dynamics>pp – pianissimo": {
-   "what": [
-    "Pianissimo (pp) means very soft. It is the Italian for 'very soft', and it is written as two italic p letters under the stave."
-   ],
-   "use": "Very soft playing still needs a clear, steady tone, which is harder than it sounds. Players breathe or bow gently and keep the notes even. Pianissimo is used for calm, mysterious or sad moments, quiet introductions and the last fade at the end of a piece. Some scores even use ppp for extra soft.",
-   "listen": [
-    "Listen for a sound so quiet you have to lean in to hear it.",
-    "Notice whether only a few instruments are playing, or all of them are playing very gently."
-   ],
-   "example": "In the final bars the strings fade to **pianissimo**, which makes the ending feel peaceful and still."
-  },
-  "Dynamics>p – piano": {
-   "what": [
-    "Piano (p) means soft. It is the Italian word for 'soft', written as one italic p under the stave. It is quieter than mp but louder than pp."
-   ],
-   "use": "Piano is a common starting level for gentle verses, lullabies and quiet introductions. It gives the music room to grow later. The piano (the instrument) is named after this word, because its full name, pianoforte, means 'soft-loud': it could play both, which the harpsichord could not.",
-   "listen": [
-    "Listen for a gentle, relaxed sound that is still easy to hear.",
-    "Check whether the singer sounds calm rather than pushing their voice."
-   ],
-   "example": "The first verse is sung **piano** over soft acoustic guitar, so it feels gentle and personal."
-  },
-  "Dynamics>mp – mezzo piano": {
-   "what": [
-    "Mezzo piano (mp) means moderately soft. Mezzo is Italian for 'half' or 'medium', so mp is a bit louder than p but still on the soft side."
-   ],
-   "use": "Mezzo piano sits in the middle of the soft range, so it works for music that is calm but not whisper quiet. Performers often use it for an accompaniment that supports a melody without covering it. In your own pieces, mp is a safe level for a background part.",
-   "listen": [
-    "Listen for a sound that is quiet but relaxed and full.",
-    "Compare it with what comes next: a small step up to mf is often barely noticeable."
-   ],
-   "example": "The accompaniment stays **mezzo piano** under the melody, so the tune is always clear."
-  },
-  "Dynamics>mf – mezzo forte": {
-   "what": [
-    "Mezzo forte (mf) means moderately loud. It is a 'medium loud', a bit softer than f. It is often thought of as a normal, everyday playing volume."
-   ],
-   "use": "Many pieces sit at mf for long stretches because it is comfortable to play and to listen to. It is a common choice for a melody that needs to be heard clearly without being forceful. If you are unsure what dynamic to write at the start of a piece, mf is a good default.",
-   "listen": [
-    "Listen for a clear, confident sound that is not straining.",
-    "Notice if the music feels like a normal speaking voice rather than a shout or a whisper."
-   ],
-   "example": "The trumpet plays the main theme **mezzo forte**, which makes it stand out clearly without sounding aggressive."
-  },
-  "Dynamics>f – forte": {
-   "what": [
-    "Forte (f) means loud. It is the Italian for 'strong', written as one italic f under the stave."
-   ],
-   "use": "Forte is used for bold, energetic or proud music: a big chorus, a march, a climax. Loud does not mean harsh, so players still aim for a full, controlled tone. Brass and drums can reach forte easily, while a recorder or classical guitar has a much smaller loud.",
-   "listen": [
-    "Listen for a strong, full sound with energy behind it.",
-    "Check if more instruments have joined in."
-   ],
-   "example": "The chorus is **forte**, with the whole band playing, which makes it sound strong and confident."
-  },
-  "Dynamics>ff – fortissimo": {
-   "what": [
-    "Fortissimo (ff) means very loud. It is the loudest of the six common dynamics. Some scores go further, with fff."
-   ],
-   "use": "Composers usually save fortissimo for the biggest moment: the climax, the final chord or a sudden shock. Used all the time, it stops being special. Players need lots of air or bow weight, and drummers hit harder, so the timbre gets brighter and more intense as well as louder.",
-   "listen": [
-    "Listen for the loudest moment of the piece, often with every instrument playing.",
-    "Notice if the sound becomes brighter or more harsh because the players are pushing hard."
-   ],
-   "example": "At the climax the full orchestra plays **fortissimo** with crashing cymbals, which makes the moment feel huge and overwhelming."
-  },
   "Dynamics>In a real melody": {
    "what": [
     "Real music rarely stays at one dynamic. This example starts p, uses a crescendo hairpin to grow to f at the high point, then a diminuendo hairpin to fall away to pp on the last note.",
@@ -2045,67 +1979,15 @@
   "Performing media and timbre>Words to describe timbre": {
    "what": [
     "Timbre words describe the colour or quality of a sound. Because sound cannot be seen, we borrow words from colour (bright, dark), touch (smooth, rough) and other senses (warm, thin).",
-    "A good timbre description names the instrument and then gives one or two describing words for how it sounds in that moment."
+    "A good timbre description names the instrument and then gives one or two describing words for how it sounds in that moment. The groups below sort the words by the kind of sound they describe."
    ],
-   "use": "Performers change their timbre on purpose to suit the mood, and composers choose instruments for their colour. In a listening answer, a timbre word plus the instrument plus the effect makes a strong sentence. Learn the words in pairs of opposites: bright and dark, thin and rich, smooth and raspy.",
+   "use": "Performers change their timbre on purpose to suit the mood, and composers choose instruments for their colour. In a listening answer, a timbre word plus the instrument plus the effect makes a strong sentence. Learn the words in pairs of opposites: bright and dark, thin and rich, smooth and rough.",
    "listen": [
     "Listen to one instrument at a time and pick the word that fits best.",
     "Compare high notes and low notes: the same instrument often sounds brighter up high.",
     "Notice when a performer changes the sound, like a singer going from smooth to raspy."
    ],
    "example": "The **trumpet** has a **bright, piercing** timbre in the fanfare, while the **cello** that follows sounds **dark and warm**, which marks the change from celebration to sadness."
-  },
-  "Words to describe timbre>bright · dark · warm · mellow": {
-   "what": [
-    "Bright means a sharp, shiny, clear sound with lots of high overtones, like a trumpet or a glockenspiel. Dark is the opposite: deep and shadowy, like a bass clarinet or a low cello note.",
-    "Warm means full and comfortable, like a cello or a nylon-string guitar. Mellow means soft, round and gentle with no sharp edges, like a French horn playing quietly."
-   ],
-   "use": "Composers use bright timbres for happy, exciting or important moments and dark timbres for serious, sad or mysterious moments. Warm and mellow sounds suit gentle, calm or loving music. Performers can make their own sound brighter by playing louder and higher, or warmer and mellower by playing softer.",
-   "listen": [
-    "Bright: does it sound sharp and shiny, like a trumpet?",
-    "Dark: is it low and shadowy, like a bass clarinet?",
-    "Warm or mellow: is it soft and round, like a cello or French horn?"
-   ],
-   "example": "The melody moves from a **bright** trumpet to a **mellow** French horn, which makes the music feel calmer and more peaceful."
-  },
-  "Words to describe timbre>harsh · nasal · reedy · metallic": {
-   "what": [
-    "Harsh means rough and unpleasant on purpose, like a distorted electric guitar or brass blasting very loudly. Nasal sounds as if it comes through the nose, focused and pinched, like an oboe.",
-    "Reedy describes the buzzy sound of a reed instrument such as the clarinet, oboe, saxophone or harmonica. Metallic means a ringing, clangy sound made by metal, like cymbals, a triangle or a glockenspiel."
-   ],
-   "use": "Harsh timbres suit anger, danger and heavy rock. Nasal and reedy timbres stand out from a texture, so composers use them for solos that need to be heard. Metallic sounds add shimmer or a clash. When you compose, a reedy or metallic instrument can make a melody cut through.",
-   "listen": [
-    "Harsh: is it rough, loud and gritty, like a distorted guitar?",
-    "Nasal: is it pinched and focused, like an oboe?",
-    "Reedy or metallic: can you hear a reed's buzz or metal ringing?"
-   ],
-   "example": "The **oboe** solo has a **nasal, reedy** timbre that cuts through the soft strings, while a **metallic** cymbal roll builds underneath."
-  },
-  "Words to describe timbre>breathy · hollow · rich · thin": {
-   "what": [
-    "Breathy means you can hear air in the sound, like a low flute, pan pipes or a singer half-whispering. Hollow means an empty, open sound, like the low notes of a clarinet, a woodblock or blowing across a bottle.",
-    "Rich means full of overtones and layers, like a cello, a pipe organ or a full choir. Thin is the opposite: weak and narrow, like a single recorder or a violin played very softly up high."
-   ],
-   "use": "Breathy and hollow timbres suit gentle, mysterious or lonely moments. Rich timbres suit big, emotional music. Thin timbres can sound fragile or delicate, and composers sometimes use them on purpose before a rich, full section to make the contrast stronger.",
-   "listen": [
-    "Breathy: can you hear air in the sound?",
-    "Hollow: does it sound empty and echoey, like a low clarinet?",
-    "Rich or thin: is the sound full and layered, or small and narrow?"
-   ],
-   "example": "The introduction starts with a **thin**, quiet violin line, then the full orchestra enters with a **rich** sound, which makes the entry feel powerful."
-  },
-  "Words to describe timbre>piercing · booming · smooth · raspy": {
-   "what": [
-    "Piercing means very high and penetrating, a sound that cuts through everything, like a piccolo, a whistle or a high trumpet. Booming means deep, loud and resonant, like a bass drum, timpani or a tuba.",
-    "Smooth means even and silky with no rough edges, like a legato violin or a crooning singer. Raspy means rough and gravelly, like a blues singer's voice, a growling saxophone or a guiro."
-   ],
-   "use": "Piercing sounds grab attention, so composers use them for alarms, climaxes or a melody that must be heard. Booming sounds give weight and drama. Smooth timbres suit love songs and calm music, and raspy timbres suit blues, rock and music full of emotion.",
-   "listen": [
-    "Piercing: is it very high and cutting, like a piccolo?",
-    "Booming: is it deep and loud, like a bass drum?",
-    "Smooth or raspy: is it silky, or rough and gravelly like a blues voice?"
-   ],
-   "example": "The singer's **raspy** voice is set against a **smooth** string backing, while **booming** bass drum hits mark each chorus, which makes the song sound raw and emotional."
   },
   "Pitch>Key ideas": {
    "what": [
@@ -3016,64 +2898,6 @@
    ],
    "example": "The song uses the **primary chords** throughout, moving from **I** to **IV** in the verse and ending each chorus with **V7** resolving to **I**, so it sounds simple and complete."
   },
-  "Primary chords in C major>I – Tonic": {
-   "what": [
-    "Chord I, the tonic chord, is the triad built on the 1st note of the scale. In C major it is C, E and G.",
-    "It is the home chord. It sounds stable and finished, which is why most pieces start and end on it."
-   ],
-   "use": "Composers use chord I to set up the key at the start and to make endings sound final. Songs often return to I at the end of each verse or chorus. When you compose, finish on chord I (with the tonic in the melody) so the piece feels complete.",
-   "listen": [
-    "Listen for the chord that sounds like 'home' and makes the music feel at rest.",
-    "Notice that the final chord of most pieces is chord I.",
-    "Hear how the music relaxes when it lands on I after V."
-   ],
-   "example": "The piece ends on the **tonic** chord (I), so the music sounds complete and at rest."
-  },
-  "Primary chords in C major>IV – Subdominant": {
-   "what": [
-    "Chord IV, the subdominant, is the triad built on the 4th note of the scale. In C major it is F, A and C.",
-    "It shares the note C with chord I, so moving from I to IV sounds smooth, like taking a step away from home without going far."
-   ],
-   "use": "Chord IV adds variety and a feeling of moving forward, often at the start of a new line or in a chorus. In the 12-bar blues the move to IV in bar 5 is one of the big moments. In church music, IV to I at the very end gives the 'Amen' sound (a plagal cadence).",
-   "listen": [
-    "Listen for a chord that moves away from home but still sounds relaxed.",
-    "Notice IV often arriving after I at the start of a new phrase.",
-    "Hear the soft 'Amen' ending when IV goes to I."
-   ],
-   "example": "In the second line the harmony moves to the **subdominant** (IV), which lifts the music away from home before it returns to I."
-  },
-  "Primary chords in C major>V – Dominant": {
-   "what": [
-    "Chord V, the dominant, is the triad built on the 5th note of the scale. In C major it is G, B and D.",
-    "It contains B, the 7th note of the scale, which sits a semitone below C and wants to rise to it. That gives chord V a strong pull back to chord I."
-   ],
-   "use": "Composers put chord V near the end of phrases to make the listener expect the home chord. V to I is the strongest way to end a piece (a perfect cadence). Ending a phrase on V instead leaves it sounding unfinished, like a question.",
-   "listen": [
-    "Listen for a chord that sounds tense and wants to move.",
-    "Notice the strong 'arriving home' feeling when V moves to I.",
-    "A phrase that stops on V sounds like it is waiting for an answer."
-   ],
-   "example": "At the end of the first phrase the music stops on the **dominant** (V), which sounds unfinished, so the second phrase answers it by ending on I."
-  },
-  "Primary chords in C major>V7 – Dominant seventh": {
-   "what": [
-    "V7, the dominant seventh, is chord V with one extra note: the note a 7th above the root. In C major it is G, B, D and F (written G7).",
-    "The added F clashes a little with the other notes, so V7 is even more tense than V. That tension resolves when it moves to chord I: B rises to C and F falls to E."
-   ],
-   "use": "V7 is used just before the final chord in classical, pop, folk and jazz music to make the ending sound certain. On ukulele and guitar, G7 is one of the first chords students learn because it leads so well into C. Try playing G7 then C and listen to the tension release.",
-   "listen": [
-    "Listen for a chord with an extra bite or tension, just before the end.",
-    "Hear it pull hard towards the home chord.",
-    "Notice the relief when the next chord is I."
-   ],
-   "example": "Just before the final chord the band plays a **dominant seventh** (G7), and its tension resolves onto C (I), so the ending sounds definite.",
-   "fig": [
-    {
-     "file": "rm_s4_v7_to_i.png",
-     "caption": "G7 (V7) resolving to C (I): B rises to C and F falls to E"
-    }
-   ]
-  },
   "Harmony and chords>Major vs minor triad": {
    "what": [
     "A major triad and a minor triad on the same root share two notes. Only the middle note, the 3rd, is different. C major is C E G; C minor is C E flat G.",
@@ -3451,64 +3275,6 @@
     "Write the sections down as letters and match the pattern to a form."
    ],
    "example": "The **macrostructure** is **rondo (A B A C A)**, with the catchy A section returning between two contrasting sections."
-  },
-  "Macrostructure>Binary – A B": {
-   "what": [
-    "Binary form has two contrasting sections, A and B. The B section uses different musical ideas, but it usually sounds as if it belongs with A (same style, similar instruments).",
-    "In older dance music each section is often repeated, so you hear A A B B. The A section often ends feeling unfinished and the B section brings the music home."
-   ],
-   "use": "Binary form was used a lot in Baroque dances such as minuets and gigues, and it turns up in many folk tunes. Two balanced halves make it easy to follow. To compose in binary form, write an A section of 4 or 8 bars, then a B section of the same length that changes the melody or rhythm.",
-   "listen": [
-    "Listen for one clear change to a new section partway through.",
-    "Check that the first section does not come back at the end.",
-    "Listen for repeat signs being followed, so you hear A twice and then B twice."
-   ],
-   "example": "The piece is in **binary form**, with each section repeated, and the B section contrasts with A by moving higher and using more quavers.",
-   "fig": [
-    {
-     "file": "rm_s4_str_binary.png",
-     "caption": "A short piece in binary form: section A is repeated, then section B is repeated"
-    }
-   ]
-  },
-  "Macrostructure>Ternary – A B A": {
-   "what": [
-    "Ternary form has three sections in the pattern A B A. The first section (A) is followed by a contrasting section (B), then A comes back.",
-    "The return of A gives the piece balance and makes it feel finished. The second A can be exactly the same or slightly changed (sometimes written A B A1)."
-   ],
-   "use": "Ternary form is used in many classical pieces, songs and pieces for students. The B section often contrasts by changing key, mood, tempo or texture. To compose in ternary form, write an A section, then a B section that feels different, then repeat A.",
-   "listen": [
-    "Listen for a contrasting middle section.",
-    "Listen for the opening tune coming back at the end.",
-    "Notice what changes in the B section: key, mood, tempo or instruments."
-   ],
-   "example": "The music is in **ternary form**, because the gentle opening melody returns after a faster, louder B section, so the piece ends calmly the way it began."
-  },
-  "Macrostructure>Rondo – A B A C A": {
-   "what": [
-    "Rondo form has a main section (A) that keeps coming back between new sections. The pattern is A B A C A, and it can be longer, such as A B A C A D A.",
-    "The A section is called the refrain because it returns like a chorus. The other sections are called episodes and each one is different."
-   ],
-   "use": "Rondo form is common in Classical music, especially the last, fast movement of concertos and sonatas, because the returning tune gives a lively, cheerful feel. When you compose a rondo, make the A section short and catchy so it is easy to recognise each time it comes back.",
-   "listen": [
-    "Listen for one catchy tune that keeps coming back.",
-    "Count how many different new sections appear between the returns.",
-    "Label every section with a letter and check for A B A C A."
-   ],
-   "example": "The piece is in **rondo form**, as the bouncy A theme returns three times, separated by a calm B section and a minor-key C section."
-  },
-  "Macrostructure>Verse–chorus": {
-   "what": [
-    "Verse-chorus form is the structure of most pop and rock songs. Verses tell the story and change their words each time. The chorus repeats the same words and tune and contains the hook (the catchiest part).",
-    "A typical plan is intro, verse, chorus, verse, chorus, bridge, chorus, outro. Many songs also have a pre-chorus, a short section that builds from the verse into the chorus."
-   ],
-   "use": "Songwriters use this form because the repeated chorus is easy to remember and sing along to. The chorus is usually louder, higher and thicker in texture than the verse. When you write a song, write the chorus first, then write verses that lead into it.",
-   "listen": [
-    "Listen for the section whose words repeat exactly each time: that is the chorus.",
-    "Listen for sections with the same tune but new words: those are the verses.",
-    "Notice a section that sounds different and only happens once, usually the bridge."
-   ],
-   "example": "The song is in **verse-chorus form**, with the **chorus** returning three times, and each chorus has a thicker texture than the verse before it."
   },
   "Macrostructure>12-bar blues": {
    "what": [
@@ -3910,6 +3676,279 @@
      "caption": "D.S. al Fine: go back to the sign, then stop at Fine"
     }
    ]
+  },
+  "Words to describe timbre>Bright / brilliant": {
+   "what": [
+    "These words describe sounds with lots of high overtones. Overtones are the faint higher pitches inside every note, and the more of them a sound has, the brighter and more forward it seems.",
+    "Bright sounds usually come from high instruments, metal instruments and instruments played hard: trumpet, piccolo, glockenspiel, xylophone and a strummed steel-string guitar."
+   ],
+   "use": "Composers use bright timbres to make a melody stand out, to sound happy or festive, or to grab attention in a fanfare. The same instrument can sound brighter or darker, so a trumpet played loud and high is brilliant, while the same trumpet played softly down low is not. Pick the word that matches the exact moment, not just the instrument.",
+   "listen": [
+    "Listen for sounds that cut through and seem to sit at the front of the music.",
+    "Notice high, metallic or struck sounds: they are often sparkling, ringing or glittering.",
+    "Check whether the brightness comes from the instrument, the high register or a loud dynamic."
+   ],
+   "example": "The glockenspiel adds a **sparkling**, **bell-like** timbre above the strings, which makes the chorus sound bright and joyful."
+  },
+  "Words to describe timbre>Dark / dull / heavy": {
+   "what": [
+    "These words describe sounds with few high overtones. They sound deep, covered or weighty, as if some of the light has been taken out of them.",
+    "Dark sounds come from low instruments (bassoon, cello, tuba, low clarinet), from mutes and dampening, and from playing softly in a low register."
+   ],
+   "use": "Composers use dark timbres for serious, sad, mysterious or threatening moments. A mute or a low register can darken almost any instrument. In rock and metal, heavy and muffled guitar sounds come from distortion and palm muting. When you describe a dark sound, say what makes it dark: the instrument, the register or a technique such as a mute.",
+   "listen": [
+    "Listen for low, deep sounds that sit underneath the music.",
+    "Notice covered or softened sounds, such as muted brass or damped drums.",
+    "Ask whether the low notes are clear (booming, resonant) or blurred together (muddy, murky)."
+   ],
+   "example": "In the introduction the low strings and bassoon create a **dark, murky** timbre, which gives the opening a mysterious, uneasy mood."
+  },
+  "Words to describe timbre>Density (tone colour)": {
+   "what": [
+    "These words describe how thick or thin a sound feels. They overlap with texture, but here the focus is on the colour of the sound rather than how many separate parts there are.",
+    "A single high recorder sounds thin. A pipe organ or a whole brass section sounds full and rich. A homogeneous sound is one where all the instruments blend into one colour."
+   ],
+   "use": "Composers change the density of the tone colour to build up or calm down the music. Adding low instruments and doubling parts makes the sound fuller, while taking them away makes it lighter and more transparent. Use these words with texture words: you could write that the texture is thin and the timbre is transparent.",
+   "listen": [
+    "Listen for how much weight and body the sound has.",
+    "Notice whether you can hear through to each part (transparent) or whether everything blends (homogeneous).",
+    "Compare sections: does the sound get fuller or lighter as the piece goes on?"
+   ],
+   "example": "In the final chorus the brass and organ join the choir, so the sound becomes **full** and **rich**, which gives the ending a grand climax."
+  },
+  "Words to describe timbre>Harsh / strident / forceful": {
+   "what": [
+    "These words describe rough, hard or cutting sounds. They often come from playing very loudly, from distortion, from pressing hard with a bow, or from instruments with a sharp attack.",
+    "Some of them describe pitch as well as colour. Piercing and acute sounds are usually very high, while gruff and growling sounds are usually low."
+   ],
+   "use": "Composers and producers use harsh timbres for anger, danger, excitement or energy. Heavy metal guitar, loud brass in film music and a belted rock vocal all use them on purpose. In an answer, link the harsh timbre to how it is made (distortion, accents, playing fortissimo) and to the effect it has.",
+   "listen": [
+    "Listen for sounds that feel rough or grainy instead of smooth.",
+    "Notice very loud or accented playing, and sounds that cut through everything else.",
+    "Check for electronic distortion on guitars, bass or vocals."
+   ],
+   "example": "The distorted guitars and accented brass create a **harsh, aggressive** timbre in the chorus, which makes the music sound angry and powerful."
+  },
+  "Words to describe timbre>Material / sound-source": {
+   "what": [
+    "These words describe a sound by what makes it: wood, metal, reed, breath, electronics or the space it is played in. Many of them, such as reedy, brassy and wooden, point straight at an instrument family.",
+    "Some describe the effect of a room or a studio effect. Reverberant and echoey sounds ring on, while a dry sound has no echo at all."
+   ],
+   "use": "These are useful words when you can hear what kind of thing is making the sound but cannot name the exact instrument. They also help with electronic music: synthetic, artificial, distorted and echoey describe sounds that have been made or changed in a studio. Pair a source word with a quality word, such as 'warm and reedy' or 'dry and percussive'.",
+   "listen": [
+    "Ask what the sound is made of: wood, metal, skin, breath, a reed or electronics.",
+    "Listen for the attack of each note: is it hard (percussive) or soft (breathy, airy)?",
+    "Notice the space around the sound: does it ring on (reverberant) or stop dead (dry)?"
+   ],
+   "example": "The **reedy** oboe melody is answered by **metallic** steel drums, and the contrast in timbre makes each phrase easy to tell apart."
+  },
+  "Words to describe timbre>Mood / character": {
+   "what": [
+    "These words describe the feeling or character a sound creates, rather than the sound itself. A sound can be eerie, majestic or playful because of its instrument, register, dynamics and articulation all working together.",
+    "They are strongest when you explain what in the music creates that mood."
+   ],
+   "use": "Mood words turn a description into analysis. Instead of only saying the horns are loud, you can say they sound majestic, and then explain why: slow, loud, low brass chords. Do not use a mood word on its own. Always back it up with a musical reason.",
+   "listen": [
+    "Ask yourself how the sound makes you feel, then find the musical reason for it.",
+    "Notice which instruments and registers are used for different moods.",
+    "Listen for changes in character between sections."
+   ],
+   "example": "The high string harmonics and quiet whole-tone chords give the opening an **eerie** character, which makes the listener feel uneasy."
+  },
+  "Words to describe timbre>Warm / mellow / smooth": {
+   "what": [
+    "These words describe rounded, soft-edged and pleasant sounds. They usually come from the middle and lower registers, from legato playing and from instruments such as the cello, French horn, clarinet and alto saxophone.",
+    "Cantabile and lyrical describe a singing, song-like way of playing, so they tell you about the melody as well as the colour."
+   ],
+   "use": "Composers use warm and mellow timbres for calm, tender, romantic or comforting moments. Performers make their sound warmer by playing legato, softening the attack and adding gentle vibrato. In an answer, name the instrument and the technique that creates the warmth.",
+   "listen": [
+    "Listen for soft attacks and notes that flow smoothly into each other.",
+    "Notice middle and low instruments playing gently.",
+    "Check for a singing, song-like melody (cantabile, lyrical)."
+   ],
+   "example": "The cello plays a **warm, lyrical** melody in its middle register, and the smooth legato phrasing makes the section feel calm and tender."
+  },
+  "Primary chords in C major>I (Tonic)": {
+   "what": [
+    "Chord I, the tonic chord, is the triad built on the 1st note of the scale. In C major it is C, E and G.",
+    "It is the home chord. It sounds stable and finished, which is why most pieces start and end on it."
+   ],
+   "use": "Composers use chord I to set up the key at the start and to make endings sound final. Songs often return to I at the end of each verse or chorus. When you compose, finish on chord I (with the tonic in the melody) so the piece feels complete.",
+   "listen": [
+    "Listen for the chord that sounds like 'home' and makes the music feel at rest.",
+    "Notice that the final chord of most pieces is chord I.",
+    "Hear how the music relaxes when it lands on I after V."
+   ],
+   "example": "The piece ends on the **tonic** chord (I), so the music sounds complete and at rest."
+  },
+  "Primary chords in C major>IV (Subdominant)": {
+   "what": [
+    "Chord IV, the subdominant, is the triad built on the 4th note of the scale. In C major it is F, A and C.",
+    "It shares the note C with chord I, so moving from I to IV sounds smooth, like taking a step away from home without going far."
+   ],
+   "use": "Chord IV adds variety and a feeling of moving forward, often at the start of a new line or in a chorus. In the 12-bar blues the move to IV in bar 5 is one of the big moments. In church music, IV to I at the very end gives the 'Amen' sound (a plagal cadence).",
+   "listen": [
+    "Listen for a chord that moves away from home but still sounds relaxed.",
+    "Notice IV often arriving after I at the start of a new phrase.",
+    "Hear the soft 'Amen' ending when IV goes to I."
+   ],
+   "example": "In the second line the harmony moves to the **subdominant** (IV), which lifts the music away from home before it returns to I."
+  },
+  "Primary chords in C major>V (Dominant)": {
+   "what": [
+    "Chord V, the dominant, is the triad built on the 5th note of the scale. In C major it is G, B and D.",
+    "It contains B, the 7th note of the scale, which sits a semitone below C and wants to rise to it. That gives chord V a strong pull back to chord I."
+   ],
+   "use": "Composers put chord V near the end of phrases to make the listener expect the home chord. V to I is the strongest way to end a piece (a perfect cadence). Ending a phrase on V instead leaves it sounding unfinished, like a question.",
+   "listen": [
+    "Listen for a chord that sounds tense and wants to move.",
+    "Notice the strong 'arriving home' feeling when V moves to I.",
+    "A phrase that stops on V sounds like it is waiting for an answer."
+   ],
+   "example": "At the end of the first phrase the music stops on the **dominant** (V), which sounds unfinished, so the second phrase answers it by ending on I."
+  },
+  "Primary chords in C major>V7 (Dominant seventh)": {
+   "what": [
+    "V7, the dominant seventh, is chord V with one extra note: the note a 7th above the root. In C major it is G, B, D and F (written G7).",
+    "The added F clashes a little with the other notes, so V7 is even more tense than V. That tension resolves when it moves to chord I: B rises to C and F falls to E."
+   ],
+   "use": "V7 is used just before the final chord in classical, pop, folk and jazz music to make the ending sound certain. On ukulele and guitar, G7 is one of the first chords students learn because it leads so well into C. Try playing G7 then C and listen to the tension release.",
+   "listen": [
+    "Listen for a chord with an extra bite or tension, just before the end.",
+    "Hear it pull hard towards the home chord.",
+    "Notice the relief when the next chord is I."
+   ],
+   "example": "Just before the final chord the band plays a **dominant seventh** (G7), and its tension resolves onto C (I), so the ending sounds definite.",
+   "fig": [
+    {
+     "file": "rm_s4_v7_to_i.png",
+     "caption": "G7 (V7) resolving to C (I): B rises to C and F falls to E"
+    }
+   ]
+  },
+  "Dynamics>pp (pianissimo)": {
+   "what": [
+    "Pianissimo (pp) means very soft. It is the Italian for 'very soft', and it is written as two italic p letters under the stave."
+   ],
+   "use": "Very soft playing still needs a clear, steady tone, which is harder than it sounds. Players breathe or bow gently and keep the notes even. Pianissimo is used for calm, mysterious or sad moments, quiet introductions and the last fade at the end of a piece. Some scores even use ppp for extra soft.",
+   "listen": [
+    "Listen for a sound so quiet you have to lean in to hear it.",
+    "Notice whether only a few instruments are playing, or all of them are playing very gently."
+   ],
+   "example": "In the final bars the strings fade to **pianissimo**, which makes the ending feel peaceful and still."
+  },
+  "Dynamics>p (piano)": {
+   "what": [
+    "Piano (p) means soft. It is the Italian word for 'soft', written as one italic p under the stave. It is quieter than mp but louder than pp."
+   ],
+   "use": "Piano is a common starting level for gentle verses, lullabies and quiet introductions. It gives the music room to grow later. The piano (the instrument) is named after this word, because its full name, pianoforte, means 'soft-loud': it could play both, which the harpsichord could not.",
+   "listen": [
+    "Listen for a gentle, relaxed sound that is still easy to hear.",
+    "Check whether the singer sounds calm rather than pushing their voice."
+   ],
+   "example": "The first verse is sung **piano** over soft acoustic guitar, so it feels gentle and personal."
+  },
+  "Dynamics>mp (mezzo piano)": {
+   "what": [
+    "Mezzo piano (mp) means moderately soft. Mezzo is Italian for 'half' or 'medium', so mp is a bit louder than p but still on the soft side."
+   ],
+   "use": "Mezzo piano sits in the middle of the soft range, so it works for music that is calm but not whisper quiet. Performers often use it for an accompaniment that supports a melody without covering it. In your own pieces, mp is a safe level for a background part.",
+   "listen": [
+    "Listen for a sound that is quiet but relaxed and full.",
+    "Compare it with what comes next: a small step up to mf is often barely noticeable."
+   ],
+   "example": "The accompaniment stays **mezzo piano** under the melody, so the tune is always clear."
+  },
+  "Dynamics>mf (mezzo forte)": {
+   "what": [
+    "Mezzo forte (mf) means moderately loud. It is a 'medium loud', a bit softer than f. It is often thought of as a normal, everyday playing volume."
+   ],
+   "use": "Many pieces sit at mf for long stretches because it is comfortable to play and to listen to. It is a common choice for a melody that needs to be heard clearly without being forceful. If you are unsure what dynamic to write at the start of a piece, mf is a good default.",
+   "listen": [
+    "Listen for a clear, confident sound that is not straining.",
+    "Notice if the music feels like a normal speaking voice rather than a shout or a whisper."
+   ],
+   "example": "The trumpet plays the main theme **mezzo forte**, which makes it stand out clearly without sounding aggressive."
+  },
+  "Dynamics>f (forte)": {
+   "what": [
+    "Forte (f) means loud. It is the Italian for 'strong', written as one italic f under the stave."
+   ],
+   "use": "Forte is used for bold, energetic or proud music: a big chorus, a march, a climax. Loud does not mean harsh, so players still aim for a full, controlled tone. Brass and drums can reach forte easily, while a recorder or classical guitar has a much smaller loud.",
+   "listen": [
+    "Listen for a strong, full sound with energy behind it.",
+    "Check if more instruments have joined in."
+   ],
+   "example": "The chorus is **forte**, with the whole band playing, which makes it sound strong and confident."
+  },
+  "Dynamics>ff (fortissimo)": {
+   "what": [
+    "Fortissimo (ff) means very loud. It is the loudest of the six common dynamics. Some scores go further, with fff."
+   ],
+   "use": "Composers usually save fortissimo for the biggest moment: the climax, the final chord or a sudden shock. Used all the time, it stops being special. Players need lots of air or bow weight, and drummers hit harder, so the timbre gets brighter and more intense as well as louder.",
+   "listen": [
+    "Listen for the loudest moment of the piece, often with every instrument playing.",
+    "Notice if the sound becomes brighter or more harsh because the players are pushing hard."
+   ],
+   "example": "At the climax the full orchestra plays **fortissimo** with crashing cymbals, which makes the moment feel huge and overwhelming."
+  },
+  "Macrostructure>Binary (A B)": {
+   "what": [
+    "Binary form has two contrasting sections, A and B. The B section uses different musical ideas, but it usually sounds as if it belongs with A (same style, similar instruments).",
+    "In older dance music each section is often repeated, so you hear A A B B. The A section often ends feeling unfinished and the B section brings the music home."
+   ],
+   "use": "Binary form was used a lot in Baroque dances such as minuets and gigues, and it turns up in many folk tunes. Two balanced halves make it easy to follow. To compose in binary form, write an A section of 4 or 8 bars, then a B section of the same length that changes the melody or rhythm.",
+   "listen": [
+    "Listen for one clear change to a new section partway through.",
+    "Check that the first section does not come back at the end.",
+    "Listen for repeat signs being followed, so you hear A twice and then B twice."
+   ],
+   "example": "The piece is in **binary form**, with each section repeated, and the B section contrasts with A by moving higher and using more quavers.",
+   "fig": [
+    {
+     "file": "rm_s4_str_binary.png",
+     "caption": "A short piece in binary form: section A is repeated, then section B is repeated"
+    }
+   ]
+  },
+  "Macrostructure>Ternary (A B A)": {
+   "what": [
+    "Ternary form has three sections in the pattern A B A. The first section (A) is followed by a contrasting section (B), then A comes back.",
+    "The return of A gives the piece balance and makes it feel finished. The second A can be exactly the same or slightly changed (sometimes written A B A1)."
+   ],
+   "use": "Ternary form is used in many classical pieces, songs and pieces for students. The B section often contrasts by changing key, mood, tempo or texture. To compose in ternary form, write an A section, then a B section that feels different, then repeat A.",
+   "listen": [
+    "Listen for a contrasting middle section.",
+    "Listen for the opening tune coming back at the end.",
+    "Notice what changes in the B section: key, mood, tempo or instruments."
+   ],
+   "example": "The music is in **ternary form**, because the gentle opening melody returns after a faster, louder B section, so the piece ends calmly the way it began."
+  },
+  "Macrostructure>Rondo (A B A C A)": {
+   "what": [
+    "Rondo form has a main section (A) that keeps coming back between new sections. The pattern is A B A C A, and it can be longer, such as A B A C A D A.",
+    "The A section is called the refrain because it returns like a chorus. The other sections are called episodes and each one is different."
+   ],
+   "use": "Rondo form is common in Classical music, especially the last, fast movement of concertos and sonatas, because the returning tune gives a lively, cheerful feel. When you compose a rondo, make the A section short and catchy so it is easy to recognise each time it comes back.",
+   "listen": [
+    "Listen for one catchy tune that keeps coming back.",
+    "Count how many different new sections appear between the returns.",
+    "Label every section with a letter and check for A B A C A."
+   ],
+   "example": "The piece is in **rondo form**, as the bouncy A theme returns three times, separated by a calm B section and a minor-key C section."
+  },
+  "Macrostructure>Verse-chorus": {
+   "what": [
+    "Verse-chorus form is the structure of most pop and rock songs. Verses tell the story and change their words each time. The chorus repeats the same words and tune and contains the hook (the catchiest part).",
+    "A typical plan is intro, verse, chorus, verse, chorus, bridge, chorus, outro. Many songs also have a pre-chorus, a short section that builds from the verse into the chorus."
+   ],
+   "use": "Songwriters use this form because the repeated chorus is easy to remember and sing along to. The chorus is usually louder, higher and thicker in texture than the verse. When you write a song, write the chorus first, then write verses that lead into it.",
+   "listen": [
+    "Listen for the section whose words repeat exactly each time: that is the chorus.",
+    "Listen for sections with the same tune but new words: those are the verses.",
+    "Notice a section that sounds different and only happens once, usually the bridge."
+   ],
+   "example": "The song is in **verse-chorus form**, with the **chorus** returning three times, and each chorus has a thicker texture than the verse before it."
   }
  },
  "5": {
@@ -5861,32 +5900,6 @@
    ],
    "example": "The first phrase ends with an **imperfect cadence** that sounds unfinished, and the answering phrase closes with a **perfect cadence**, which gives the melody a question and answer shape."
   },
-  "Cadence>Perfect: V – I": {
-   "what": [
-    "A perfect cadence is chord V followed by chord I. In C major that is G major (G, B, D) moving to C major (C, E, G). It sounds completely finished, like a full stop.",
-    "Two things make it so strong: the bass moves from G to C (the 5th note of the key to the home note), and the leading note B rises a semitone to the home note C. Adding a 7th to chord V (G7) makes the pull even stronger."
-   ],
-   "use": "Almost every piece of classical music ends with a perfect cadence, and it closes phrases and sections in hymns, folk songs and pop. Composers sometimes repeat it several times at the very end to make the finish emphatic. In your compositions, use V to I for your final cadence and move the leading note up to the tonic.",
-   "listen": [
-    "Listen for a strong sense of arrival and completion at the end of a phrase.",
-    "Follow the bass as it moves from the 5th note of the key to the home note.",
-    "Listen for the melody stepping up from the leading note to the tonic, or down to it from the 2nd."
-   ],
-   "example": "The piece ends with a **perfect cadence**, V to I in the home key, which gives a strong, final sense of completion."
-  },
-  "Cadence>Plagal: IV – I": {
-   "what": [
-    "A plagal cadence is chord IV followed by chord I. In C major that is F major (F, A, C) moving to C major (C, E, G). It sounds finished, but softer and gentler than a perfect cadence.",
-    "It is called the Amen cadence because hymns traditionally set the word 'Amen' to these two chords. The note C is in both chords, so it can stay still while the other notes step down."
-   ],
-   "use": "Plagal cadences give a warm, peaceful ending, often added after a perfect cadence has already closed the piece, as in the 'Amen' at the end of a hymn. They are also common in gospel, rock and pop, where IV to I has a laid-back, open sound. In your own music, try IV to I for a calm last chord change instead of V to I.",
-   "listen": [
-    "Listen for a gentle, settled ending without the strong pull of a perfect cadence.",
-    "Notice the bass moving from the 4th note of the key to the home note.",
-    "Listen for an 'A-men' feel: two chords, with the top note often staying the same."
-   ],
-   "example": "The hymn closes with a **plagal cadence** on the word 'Amen', moving from chord IV to I, which gives a soft, peaceful finish."
-  },
   "Cadence>Imperfect: ends on V": {
    "what": [
     "An imperfect cadence is any cadence that ends on chord V. The chord before it is often I, ii or IV (in C major: C to G, D minor to G or F to G). It sounds unfinished, like a comma or a question.",
@@ -5899,19 +5912,6 @@
     "Check what comes next: a following phrase that ends on I confirms the first one was imperfect."
    ],
    "example": "The first phrase ends with an **imperfect cadence** on chord V, which sounds like a question and makes the listener expect an answering phrase."
-  },
-  "Cadence>Interrupted: V – vi": {
-   "what": [
-    "An interrupted cadence is chord V followed by chord vi instead of the expected I. In C major that is G major (G, B, D) moving to A minor (A, C, E).",
-    "Chord vi shares two notes with chord I (C and E), so it sounds almost right, but the bass steps up to A instead of landing on C. The ear expects a full stop and gets a surprise minor chord. It is also called a deceptive cadence."
-   ],
-   "use": "Composers use an interrupted cadence to delay the ending and add surprise or a touch of sadness. Often the phrase is then repeated and finishes properly with a perfect cadence, which makes the final arrival feel stronger. Try V to vi near the end of your piece, then repeat the phrase and end it V to I.",
-   "listen": [
-    "Listen for a phrase that seems about to finish but swerves somewhere unexpected.",
-    "Notice a minor chord where you expected the bright home chord.",
-    "Listen for the bass stepping up one note instead of landing on the home note."
-   ],
-   "example": "Just as the music seems about to end, an **interrupted cadence** moves from V to vi, and the minor chord delays the finish until the phrase repeats and closes with a perfect cadence."
   },
   "Harmonic devices>Extended chords": {
    "what": [
@@ -6071,6 +6071,45 @@
      "caption": "The motif, then the same notes and rhythm backwards"
     }
    ]
+  },
+  "Cadence>Perfect: V-I": {
+   "what": [
+    "A perfect cadence is chord V followed by chord I. In C major that is G major (G, B, D) moving to C major (C, E, G). It sounds completely finished, like a full stop.",
+    "Two things make it so strong: the bass moves from G to C (the 5th note of the key to the home note), and the leading note B rises a semitone to the home note C. Adding a 7th to chord V (G7) makes the pull even stronger."
+   ],
+   "use": "Almost every piece of classical music ends with a perfect cadence, and it closes phrases and sections in hymns, folk songs and pop. Composers sometimes repeat it several times at the very end to make the finish emphatic. In your compositions, use V to I for your final cadence and move the leading note up to the tonic.",
+   "listen": [
+    "Listen for a strong sense of arrival and completion at the end of a phrase.",
+    "Follow the bass as it moves from the 5th note of the key to the home note.",
+    "Listen for the melody stepping up from the leading note to the tonic, or down to it from the 2nd."
+   ],
+   "example": "The piece ends with a **perfect cadence**, V to I in the home key, which gives a strong, final sense of completion."
+  },
+  "Cadence>Plagal: IV-I": {
+   "what": [
+    "A plagal cadence is chord IV followed by chord I. In C major that is F major (F, A, C) moving to C major (C, E, G). It sounds finished, but softer and gentler than a perfect cadence.",
+    "It is called the Amen cadence because hymns traditionally set the word 'Amen' to these two chords. The note C is in both chords, so it can stay still while the other notes step down."
+   ],
+   "use": "Plagal cadences give a warm, peaceful ending, often added after a perfect cadence has already closed the piece, as in the 'Amen' at the end of a hymn. They are also common in gospel, rock and pop, where IV to I has a laid-back, open sound. In your own music, try IV to I for a calm last chord change instead of V to I.",
+   "listen": [
+    "Listen for a gentle, settled ending without the strong pull of a perfect cadence.",
+    "Notice the bass moving from the 4th note of the key to the home note.",
+    "Listen for an 'A-men' feel: two chords, with the top note often staying the same."
+   ],
+   "example": "The hymn closes with a **plagal cadence** on the word 'Amen', moving from chord IV to I, which gives a soft, peaceful finish."
+  },
+  "Cadence>Interrupted: V-vi": {
+   "what": [
+    "An interrupted cadence is chord V followed by chord vi instead of the expected I. In C major that is G major (G, B, D) moving to A minor (A, C, E).",
+    "Chord vi shares two notes with chord I (C and E), so it sounds almost right, but the bass steps up to A instead of landing on C. The ear expects a full stop and gets a surprise minor chord. It is also called a deceptive cadence."
+   ],
+   "use": "Composers use an interrupted cadence to delay the ending and add surprise or a touch of sadness. Often the phrase is then repeated and finishes properly with a perfect cadence, which makes the final arrival feel stronger. Try V to vi near the end of your piece, then repeat the phrase and end it V to I.",
+   "listen": [
+    "Listen for a phrase that seems about to finish but swerves somewhere unexpected.",
+    "Notice a minor chord where you expected the bright home chord.",
+    "Listen for the bass stepping up one note instead of landing on the home note."
+   ],
+   "example": "Just as the music seems about to end, an **interrupted cadence** moves from V to vi, and the minor chord delays the finish until the phrase repeats and closes with a perfect cadence."
   }
  }
 }

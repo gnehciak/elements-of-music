@@ -3,9 +3,9 @@ function n(t,d,c,k){ if(Array.isArray(d)){k=c;c=d;d=""} return {t:t,d:d||"",c:c|
 const ask=(...qs)=>n("Ask yourself","Questions for listening",qs.map(q=>n(q,"",[],"ask")),"ask");
 const tip=(t,d)=>n(t,d,[],"tip");
 
-const DATA=n("Elements of Music","Stage 4 · NSW Music 7–10 Syllabus (2024)",[
+const DATA=n("Elements of Music","Stage 4: NSW Music 7-10 Syllabus (2024)",[
 
-n("Duration","The length of sounds and silences in music – beat, tempo, note and rest values, metre and rhythmic devices.",[
+n("Duration","The length of sounds and silences in music: beat, tempo, note and rest values, metre and rhythmic devices.",[
   n("Beat and tempo",[
     n("Beat","The steady pulse you tap your foot to. Some music has no beat (free rhythm)."),
     n("Tempo","The speed of the beat, measured in BPM (beats per minute). A metronome clicks the beat."),
@@ -17,15 +17,15 @@ n("Duration","The length of sounds and silences in music – beat, tempo, note a
       n("Ritardando (rit.) / Rallentando (rall.)","Gradually getting slower"),
       n("a tempo","Back to the original speed after a rit. or accel.")]),
     n("Reading a tempo marking","Sits above the first bar, e.g. Allegro ♩ = 120",[
-      n("Allegro","The Italian term – fast and lively"),
-      n("♩ = 120","120 crotchet beats per minute (120 BPM) – two beats every second")])
+      n("Allegro","The Italian term: fast and lively"),
+      n("♩ = 120","120 crotchet beats per minute (120 BPM), so two beats every second")])
   ]),
   n("Note values",[
-    n("Semibreve","4 beats · American name: whole note"),
-    n("Minim","2 beats · 2 in a semibreve · half note"),
-    n("Crotchet","1 beat · 4 in a semibreve · quarter note"),
-    n("Quaver","½ beat · 8 in a semibreve · eighth note. Two beamed quavers = 1 beat altogether."),
-    n("Semiquaver","¼ beat · 16 in a semibreve · sixteenth note. Four semiquavers = 1 beat altogether."),
+    n("Semibreve","4 beats. American name: whole note"),
+    n("Minim","2 beats. 2 in a semibreve. American name: half note"),
+    n("Crotchet","1 beat. 4 in a semibreve. American name: quarter note"),
+    n("Quaver","½ beat. 8 in a semibreve. American name: eighth note. Two beamed quavers = 1 beat altogether."),
+    n("Semiquaver","¼ beat. 16 in a semibreve. American name: sixteenth note. Four semiquavers = 1 beat altogether."),
     n("Dotted minim","3 beats"),
     n("Dotted crotchet","1½ beats"),
     tip("The dot rule","A dot adds half of the note's value. Minim (2) + dot (1) = 3 beats. Crotchet (1) + dot (½) = 1½ beats."),
@@ -46,12 +46,12 @@ n("Duration","The length of sounds and silences in music – beat, tempo, note a
       n("3/4","Three crotchet beats per bar (simple triple)"),
       n("4/4","Four crotchet beats per bar (simple quadruple)")]),
     n("Compound time","Each beat divides into three",[
-      n("6/8","Compound duple – two dotted-crotchet beats, quavers beamed in two groups of three")]),
+      n("6/8","Compound duple: two dotted-crotchet beats, quavers beamed in two groups of three")]),
     tip("3/4 or 6/8?","Both hold six quavers. 3/4 groups them in THREE pairs (simple time); 6/8 in TWO groups of three (compound time).")
   ]),
   n("Rhythmic devices",[
     n("Ostinato","A rhythmic (or melodic) pattern that repeats over and over"),
-    n("Syncopation","Accents placed on weak beats or off-beats – the notes that fall BETWEEN the beats"),
+    n("Syncopation","Accents placed on weak beats or off-beats, the notes that fall BETWEEN the beats"),
     n("Backbeat","Emphasis on beats 2 and 4, usually on the snare drum (rock and pop). On a kit: hi-hat quavers on top, bass drum on 1 and 3, accented snare on 2 and 4."),
     n("Free rhythm","No steady beat or regular metre"),
     n("Cycles","Repeating rhythmic cycles, common in many global music cultures")
@@ -61,14 +61,14 @@ n("Duration","The length of sounds and silences in music – beat, tempo, note a
     n("Repeat sign","Go back and play the section again"),
     n("Start and end repeat signs","Play the bars between the dots twice, then go on")
   ]),
-  ask("Is there a steady beat?","Fast or slow – does the tempo change?","How many beats in a bar?","Are the rhythms long and smooth or short and busy?","Can you hear an ostinato, syncopation or a backbeat?")
+  ask("Is there a steady beat?","Fast or slow? Does the tempo change?","How many beats in a bar?","Are the rhythms long and smooth or short and busy?","Can you hear an ostinato, syncopation or a backbeat?")
 ]),
 
-n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
+n("Pitch","How high or low a sound is: melody, harmony and tonality.",[
   n("Key ideas",[
     n("Definite pitch","A clear note you can sing back (flute, violin, xylophone)"),
     n("Indefinite pitch","No clear note (snare drum, cymbal)"),
-    n("Melody","The main tune – pitches one after another"),
+    n("Melody","The main tune: pitches one after another"),
     n("Harmony","Two or more different notes sounding together")
   ]),
   n("The staff and clefs",[
@@ -77,20 +77,20 @@ n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
     n("Treble clef (G clef)","Higher notes. It curls around the G line."),
     n("Bass clef (F clef)","Lower notes. The two dots sit either side of the F line."),
     n("Ledger lines","Short extra lines for notes above or below the staff"),
-    n("Grand staff","Piano music: treble and bass staves joined by a brace. MIDDLE C sits on a ledger line between them – the same note in both clefs.")
+    n("Grand staff","Piano music: treble and bass staves joined by a brace. MIDDLE C sits on a ledger line between them. It is the same note in both clefs.")
   ]),
   n("Treble clef notes","Middle C (on a ledger line) up to high A",[
-    n("Lines: E G B D F","Bottom to top – Every Good Boy Deserves Fruit"),
-    n("Spaces: F A C E","Bottom to top – spells FACE")
+    n("Lines: E G B D F","Bottom to top: Every Good Boy Deserves Fruit"),
+    n("Spaces: F A C E","Bottom to top, they spell FACE")
   ]),
   n("Bass clef notes","Low E up to middle C (on a ledger line)",[
-    n("Lines: G B D F A","Bottom to top – Good Boys Do Fine Always"),
-    n("Spaces: A C E G","Bottom to top – All Cows Eat Grass")
+    n("Lines: G B D F A","Bottom to top: Good Boys Do Fine Always"),
+    n("Spaces: A C E G","Bottom to top: All Cows Eat Grass")
   ]),
   n("The keyboard",[
     tip("Finding C","C is always the white key to the left of the group of TWO black keys."),
     n("Semitone","The smallest step, from one key to the very next key (E to F, or C to C sharp)"),
-    n("Tone","Two semitones (C to D – there is a black key in between)"),
+    n("Tone","Two semitones (C to D, with a black key in between)"),
     n("Octave","From one note to the next note with the same letter name (the 8th letter name, counting both notes)"),
     n("Interval","The distance between any two pitches. Count both notes: C to E is C-D-E = a 3rd.")
   ]),
@@ -110,8 +110,8 @@ n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
   ]),
   n("Tonality",[
     n("Major","Usually sounds bright and happy",[
-      n("C major scale","Eight notes moving by step from C to C – no sharps or flats"),
-      n("The major pattern","Tone, Tone, Semitone, Tone, Tone, Tone, Semitone – every major scale follows it"),
+      n("C major scale","Eight notes moving by step from C to C, with no sharps or flats"),
+      n("The major pattern","Tone, Tone, Semitone, Tone, Tone, Tone, Semitone. Every major scale follows it"),
       n("G major","One sharp (F sharp)"),
       n("D major","Two sharps (F sharp, C sharp)"),
       n("F major","One flat (B flat)"),
@@ -122,21 +122,21 @@ n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
       n("C major pentatonic","C D E G A (no F or B)")]),
     n("Modal","Based on modes such as Dorian or Mixolydian",[
       n("D Dorian","The white notes from D to D")]),
-    n("Chromatic scale","Every semitone – all 12 notes")
+    n("Chromatic scale","Every semitone: all 12 notes")
   ]),
   n("Harmony and chords",[
     n("Chord","Three or more notes sounded together"),
-    n("Triad","A three-note chord, e.g. C major: C – E – G"),
+    n("Triad","A three-note chord, e.g. C major: C, E, G"),
     n("Primary chords in C major","Chord symbols above, Roman numerals below",[
-      n("I – Tonic","C: C E G"),
-      n("IV – Subdominant","F: F A C"),
-      n("V – Dominant","G: G B D"),
-      n("V7 – Dominant seventh","G7: G B D F")]),
+      n("I (Tonic)","C: C E G"),
+      n("IV (Subdominant)","F: F A C"),
+      n("V (Dominant)","G: G B D"),
+      n("V7 (Dominant seventh)","G7: G B D F")]),
     n("Major vs minor triad","Only the middle note changes (E becomes E flat)"),
     n("Chord diagrams","Dots = where fingers press, O = open string, X = do not play. C on ukulele is one finger on the 3rd fret.")
   ]),
   n("Pitch devices",[
-    n("Riff","A short, catchy repeated pattern (rock, pop, jazz – often guitar or bass)"),
+    n("Riff","A short, catchy repeated pattern (rock, pop, jazz), often on guitar or bass"),
     n("Ostinato","A repeated melodic pattern"),
     n("Drone","A long sustained note held underneath the music (bagpipes, didgeridoo)"),
     n("Sequence","A short melodic pattern repeated straight away, a step higher or lower")
@@ -144,7 +144,7 @@ n("Pitch","How high or low a sound is – melody, harmony and tonality.",[
   n("Ways of notating pitch",[
     n("Staff notation","Treble and bass clef"),
     n("Tablature (TAB)","Lines are the strings, numbers are the frets to press"),
-    n("Graphic notation","Shapes, lines and pictures instead of notes – height shows pitch, width shows length, size shows volume")
+    n("Graphic notation","Shapes, lines and pictures instead of notes. Height shows pitch, width shows length, size shows volume")
   ]),
   ask("Is the melody high or low?","Does it move by step, leap or repeated notes?","What is its contour?","Does it sound major or minor?","Can you hear a riff, ostinato or drone?","Do the chords change often?")
 ]),
@@ -153,7 +153,7 @@ n("Texture","The layers of sound and how they combine.",[
   n("Density",[
     n("Thin","Few layers, e.g. a solo flute"),
     n("Thick","Many layers, e.g. full orchestra. Adding instruments makes the texture thicker."),
-    n("Texture graph","A layer diagram – count the coloured layers in each section to see the texture get thicker and thinner")
+    n("Texture graph","A layer diagram. Count the coloured layers in each section to see the texture get thicker and thinner")
   ]),
   n("Roles of layers",[
     n("Melodic","The tune"),
@@ -162,21 +162,21 @@ n("Texture","The layers of sound and how they combine.",[
   ]),
   n("Types of texture",[
     n("Unison","Everyone sings or plays exactly the same notes together"),
-    n("Monophonic","A single melody line with no accompaniment – one person singing alone; a solo flute"),
-    n("Homophonic","A melody supported by chords or accompaniment – a singer with strummed guitar; most pop songs"),
-    n("Polyphonic","Two or more independent melodies at the same time – a round such as Row, Row, Row Your Boat or Frère Jacques")
+    n("Monophonic","A single melody line with no accompaniment, e.g. one person singing alone or a solo flute"),
+    n("Homophonic","A melody supported by chords or accompaniment, e.g. a singer with strummed guitar, or most pop songs"),
+    n("Polyphonic","Two or more independent melodies at the same time, e.g. a round such as Row, Row, Row Your Boat or Frère Jacques")
   ]),
-  ask("How many layers can you hear?","Is it thick or thin – does that change?","Which instrument has the melody?","What is each other layer doing – harmonic or rhythmic role?")
+  ask("How many layers can you hear?","Is it thick or thin? Does that change?","Which instrument has the melody?","What is each other layer doing: a harmonic or rhythmic role?")
 ]),
 
-n("Performing media and timbre","Performing media are the instruments and voices that perform the music. Timbre (tone colour) is the unique quality of a sound – how you tell a trumpet from a violin on the same note.",[
+n("Performing media and timbre","Performing media are the instruments and voices that perform the music. Timbre (tone colour) is the unique quality of a sound. It is how you tell a trumpet from a violin on the same note.",[
   n("Sound sources",[
     n("Voices","Singing, speaking, rapping and beatboxing"),n("Instruments","Acoustic instruments: strings, wind and percussion"),
     n("Electronic","Synthesiser, drum machine, samples"),
     n("Natural / environmental","Body percussion, found sounds")
   ]),
   n("Families of the orchestra","Quieter strings sit at the front, louder brass and percussion at the back",[
-    n("Strings","Strings vibrate – bowed (arco) or plucked (pizzicato)",[
+    n("Strings","Strings vibrate: bowed (arco) or plucked (pizzicato)",[
       n("Violin","Highest string instrument"),n("Viola","Slightly bigger and lower than the violin"),n("Cello","Played sitting down"),
       n("Double bass","Lowest string instrument"),n("Harp","Plucked strings. The guitar is a string instrument too.")]),
     n("Woodwind","Blowing across a hole (flute) or through a reed",[
@@ -188,7 +188,7 @@ n("Performing media and timbre","Performing media are the instruments and voices
     n("Percussion","Striking, shaking or scraping",[
       n("Tuned","Play definite pitches",[n("Xylophone","Wooden bars"),n("Glockenspiel","Metal bars"),n("Timpani (kettledrums)","Large drums tuned to a note")]),
       n("Untuned","Indefinite pitch",[n("Snare drum",""),n("Cymbals",""),n("Tambourine","Struck or shaken")]),
-      n("Drum kit","Bass drum, snare, toms, hi-hat and cymbals – written on a percussion staff"),
+      n("Drum kit","Bass drum, snare, toms, hi-hat and cymbals, written on a percussion staff"),
       n("Maracas","Played by SHAKING"),n("Guiro","Played by SCRAPING")]),
     tip("Tricky ones","The saxophone is metal but it is WOODWIND because it uses a reed. Inside a piano, hammers strike strings.")
   ]),
@@ -197,7 +197,7 @@ n("Performing media and timbre","Performing media are the instruments and voices
     n("Synthesiser","ELECTRONIC sound source"),
     n("Acoustic guitar","Strummed or plucked"),
     n("Electric guitar","Needs an amplifier"),
-    n("Bass guitar","Four strings – plays the bass line"),
+    n("Bass guitar","Four strings. Plays the bass line"),
     n("Ukulele","Four strings"),
     n("Didgeridoo (yidaki)","Played with vibrating lips to make a drone")
   ]),
@@ -208,30 +208,42 @@ n("Performing media and timbre","Performing media are the instruments and voices
   n("Voices and ensembles",[
     n("Voice types (SATB)","Highest to lowest: Soprano, Alto, Tenor, Bass"),
     n("A cappella","Singing with no instruments"),
-    n("Ensemble sizes","Solo (1) · Duet (2) · Trio (3) · Quartet (4) · band · choir · orchestra (led by a conductor)"),
+    n("Ensemble sizes","Solo (1), duet (2), trio (3), quartet (4), band, choir, orchestra (led by a conductor)"),
     n("Typical rock band","Electric guitar, bass guitar, drum kit, vocals (often keyboard)")
   ]),
-  n("Words to describe timbre",[
-    n("bright · dark · warm · mellow",""),n("harsh · nasal · reedy · metallic",""),
-    n("breathy · hollow · rich · thin",""),n("piercing · booming · smooth · raspy","")
+  n("Words to describe timbre","Pick the word that fits the sound you hear",[
+    n("Bright / brilliant","Lots of high overtones: light, clear and forward",[
+      n("silvery","Light, high and shining, e.g. a flute or glockenspiel up high"),n("pure","One clean tone with nothing rough in it, e.g. a treble voice or a soft flute"),n("sparkling","Little bright flashes of sound, e.g. glockenspiel or high piano"),n("shimmering","Bright and gently wavering, e.g. tremolo strings or a cymbal roll"),n("glittering","Lots of small, bright, high notes, e.g. a harp glissando or celesta"),n("vibrant","Full of energy and colour, e.g. a trumpet section or steel drums"),n("crisp","Clean and sharp at the start of each note, e.g. snare drum or staccato strings"),n("ringing","Keeps sounding after it is struck, e.g. a bell or triangle"),n("clear","Easy to hear with no blur or fuzz, e.g. a solo clarinet or acoustic guitar"),n("brilliant","Very bright and showy, e.g. trumpet or piccolo up high"),n("bright","Lots of high overtones, so it sounds light and forward, e.g. trumpet or xylophone")]),
+    n("Dark / dull / heavy","Few high overtones: deep, covered and weighty",[
+      n("muffled","Covered over, as if heard through a wall, e.g. a damped drum or palm-muted guitar"),n("booming","Deep, loud and full, e.g. bass drum or timpani"),n("rumbling","Low and continuous, e.g. a timpani roll or a low synth"),n("murky","Low and unclear, so the notes are hard to pick out, e.g. low strings in a thick chord"),n("muddy","Low notes blurred together so nothing is clear, e.g. bass guitar and low piano clashing"),n("hollow","Empty sounding with little body, e.g. a low clarinet or a woodblock"),n("muted","Softened with a mute, e.g. muted trumpet or con sord. strings"),n("dark","Few high overtones, so it sounds deep and shadowy, e.g. bassoon, cello or low clarinet"),n("heavy","Weighty and solid, e.g. distorted guitar chords or tuba"),n("dull","No brightness or edge, e.g. a soft felt mallet on a drum"),n("subdued","Held back and quiet in colour, e.g. a soft horn or muted strings")]),
+    n("Density (tone colour)","How thick or thin a sound feels",[
+      n("thin","Little body or weight, e.g. a single recorder or a violin bowed near the bridge"),n("homogeneous","Every sound blends into one colour, e.g. a string orchestra or a choir"),n("full","Lots of body and weight, e.g. a whole brass section or a pipe organ"),n("light","Not heavy, easy and airy, e.g. flute with pizzicato strings"),n("transparent","You can hear through it to every part, e.g. a small chamber group"),n("rich","Deep and full of overtones, e.g. a cello or a pipe organ")]),
+    n("Harsh / strident / forceful","Rough, hard or cutting sounds",[
+      n("penetrating","Cuts through everything else, e.g. a piccolo or a lead trumpet"),n("gruff","Low, rough and grumpy, e.g. tuba or bass trombone played hard"),n("growling","A low, rough buzz, e.g. a jazz trumpet growl or a distorted bass"),n("rasping","Rough and grating, e.g. a bow pressed hard on the string"),n("rough","Uneven and grainy, not smooth, e.g. a raspy voice or an overblown saxophone"),n("aggressive","Hard, loud and attacking, e.g. heavy metal guitar or accented brass"),n("choppy","Broken into short, hard bits, e.g. short staccato chords or chopped bow strokes"),n("coarse","Rough and unrefined, e.g. a distorted guitar or a growled vocal"),n("powerful","Strong and loud with lots of weight, e.g. full brass or a belted voice"),n("piercing","High and sharp enough to hurt your ears, e.g. a piccolo or a whistle"),n("relentless","Hard and driving and never lets up, e.g. pounding drums or repeated brass chords"),n("acute","Very high and sharp, e.g. piccolo or violin harmonics"),n("strident","Loud, harsh and insistent, e.g. trumpets playing fortissimo"),n("harsh","Unpleasant and rough on the ear, e.g. a heavily distorted guitar"),n("brittle","Hard, thin and sharp, as if it could snap, e.g. harpsichord or xylophone"),n("intense","Highly charged and concentrated, e.g. a high violin line with fast vibrato"),n("forceful","Played with great strength and weight, e.g. accented brass chords")]),
+    n("Material / sound-source","Words that name what makes the sound",[
+      n("panting","Short, breathy bursts like heavy breathing, e.g. a voice or flute using breath sounds"),n("rattling","Lots of small, loose hits at once, e.g. maracas, shakers or snare wires"),n("hoarse","Rough, croaky and breathy, e.g. a strained singing voice"),n("fluttering","A fast, wavering sound, e.g. flutter-tongue on the flute"),n("jangly","Bright, clashing metal sounds, e.g. a chiming electric guitar or a tambourine"),n("reverberant","Rings on as if in a big space, e.g. a choir in a cathedral or lots of reverb"),n("scratchy","Rough, scraping surface noise, e.g. a bow pressed hard or an old record"),n("wheezing","Thin, breathy and strained, e.g. an accordion or harmonica"),n("synthetic","Made by electronics rather than a real instrument, e.g. a synth pad"),n("breathy","You can hear the air in it, e.g. a soft flute or a whispery voice"),n("reedy","The buzzing, nasal edge of a reed, e.g. oboe, clarinet or saxophone"),n("brassy","Bright, buzzing and blaring, e.g. trumpets and trombones"),n("distorted","Fuzzy and gritty from overdriven electronics, e.g. a rock guitar"),n("airy","Light, with lots of breath or space, e.g. pan flute or a soft synth pad"),n("artificial","Clearly not natural or acoustic, e.g. heavy autotune or a robotic synth"),n("electronic","Made or changed by electronics, e.g. synthesiser or drum machine"),n("buzzing","A fast vibration you can hear, e.g. kazoo, didgeridoo or brass lips"),n("resonant","Full and vibrating, rings on with body, e.g. a cello or a big drum"),n("bell-like","Clear and ringing with a long fade, e.g. glockenspiel or tubular bells"),n("nasal","As if played or sung through the nose, e.g. oboe or a pinched voice"),n("percussive","A hard, strong attack on each note, e.g. drums, slap bass or hammered piano chords"),n("echoey","The sound repeats like an echo, e.g. a delay effect"),n("dry","No reverb or echo, close and plain, e.g. a voice recorded in a small room"),n("wooden / woody","The warm, knocking sound of wood, e.g. xylophone, woodblock or low clarinet"),n("metallic","Hard and ringing like metal, e.g. cymbals, triangle or steel drums")]),
+    n("Mood / character","Words for the feeling a sound gives you",[
+      n("grand","Big, impressive and stately, e.g. full orchestra or pipe organ"),n("haunting","Sad and strange, and it stays with you, e.g. a solo voice or flute in a big empty space"),n("majestic","Royal and noble, e.g. a slow brass fanfare"),n("sombre","Dark, serious and sad, e.g. low strings or a slow brass chorale"),n("languid","Slow, relaxed and lazy, e.g. a slow saxophone melody"),n("eerie","Strange and spooky, e.g. a theremin or high string harmonics"),n("dramatic","Big contrasts that grab your attention, e.g. sudden loud brass and timpani"),n("playful","Light, bouncy and cheeky, e.g. pizzicato strings or staccato bassoon"),n("delicate","Soft, light and fragile, e.g. harp, celesta or a high solo violin")]),
+    n("Warm / mellow / smooth","Rounded, soft-edged and pleasant sounds",[
+      n("sonorous","Deep, full and ringing, e.g. cello, horn or a bass voice"),n("smooth","No bumps or rough edges, notes flow together, e.g. legato strings"),n("warm","Rounded and full in the low-middle, e.g. cello, horn or alto saxophone"),n("gentle","Soft and calm with no hard edges, e.g. a nylon-string guitar"),n("even","Every note the same in tone and volume, e.g. a steady legato scale"),n("cantabile","In a singing style, e.g. a violin or cello melody that sounds like a voice"),n("sweet","Pleasant, soft and high, e.g. a solo violin or a soft soprano"),n("fluid","Flows easily from note to note, e.g. a flute run or a harp"),n("ethereal","Light, airy and otherworldly, e.g. a high choir or a synth pad with reverb"),n("lyrical","Song-like and expressive, e.g. a long legato melody on clarinet or violin"),n("floating","Drifts along with no weight, e.g. high held strings or a soft synth"),n("mellow","Soft, rounded and relaxed, e.g. French horn or flugelhorn")])
   ]),
   ask("Which instruments or voices can you hear?","Which family?","How is each one being played?","Choose two words to describe the timbre.")
 ]),
 
-n("Dynamics and expression","Dynamics is how loud or soft the music is. Expression is how the notes are played – articulation, expressive techniques and effects.",[
+n("Dynamics and expression","Dynamics is how loud or soft the music is. Expression is how the notes are played: articulation, expressive techniques and effects.",[
   n("Dynamics","Softest to loudest",[
-    n("pp – pianissimo","Very soft"),n("p – piano","Soft"),n("mp – mezzo piano","Moderately soft"),
-    n("mf – mezzo forte","Moderately loud"),n("f – forte","Loud"),n("ff – fortissimo","Very loud"),
+    n("pp (pianissimo)","Very soft"),n("p (piano)","Soft"),n("mp (mezzo piano)","Moderately soft"),
+    n("mf (mezzo forte)","Moderately loud"),n("f (forte)","Loud"),n("ff (fortissimo)","Very loud"),
     n("In a real melody","Start soft (p), crescendo to loud (f), diminuendo, end very soft (pp)")
   ]),
   n("Gradual changes",[
-    n("Crescendo (cresc.)","Gradually getting louder – a hairpin opening out, or the word cresc. with a dashed line"),
+    n("Crescendo (cresc.)","Gradually getting louder. Written as a hairpin opening out, or the word cresc. with a dashed line"),
     n("Diminuendo / decrescendo (dim.)","Gradually getting softer")
   ]),
   n("Articulation",[
     n("Staccato (dots)","Short and detached"),
     n("Accent","Play the note with emphasis"),
-    n("Slur","Play legato – smooth and connected"),
+    n("Slur","Play legato: smooth and connected"),
     n("Tie","Joins two notes of the SAME pitch into one longer note"),
     n("Tenuto (lines)","Hold each note for its full length, slightly stressed"),
     n("Fermata (pause)","Hold the note longer"),
@@ -246,19 +258,19 @@ n("Dynamics and expression","Dynamics is how loud or soft the music is. Expressi
     n("Distortion","Electronic effect that makes a guitar sound fuzzy and gritty"),
     n("Delay","Electronic effect that repeats the sound like an echo"),
     n("Reverb","Makes it sound like a large space"),
-    tip("Why Italian?","Most musical terms are Italian – e.g. Andante (tempo), rit. (slow down).")
+    tip("Why Italian?","Most musical terms are Italian, e.g. Andante (tempo), rit. (slow down).")
   ]),
   ask("Is it loud or soft overall?","Do the dynamics change suddenly or gradually?","Are the notes smooth (legato) or detached (staccato)?","Can you hear accents or any effects?")
 ]),
 
 n("Structure","How the sections of the music are organised.",[
   n("Macrostructure","The big sections",[
-    n("Binary – A B","Two contrasting sections"),
-    n("Ternary – A B A","Three sections – the first one returns"),
-    n("Rondo – A B A C A","The main section keeps returning between new sections"),
-    n("Verse–chorus","Intro, verse, chorus, verse, chorus, bridge, chorus, outro – most pop and rock songs"),
+    n("Binary (A B)","Two contrasting sections"),
+    n("Ternary (A B A)","Three sections. The first one returns"),
+    n("Rondo (A B A C A)","The main section keeps returning between new sections"),
+    n("Verse-chorus","Intro, verse, chorus, verse, chorus, bridge, chorus, outro. Used in most pop and rock songs"),
     n("12-bar blues","A 12-bar chord pattern built on chords I, IV and V, repeated for the whole song"),
-    n("Cyclic","A pattern or loop that repeats around and around – chord loops, ostinato-based and much global music")
+    n("Cyclic","A pattern or loop that repeats around and around: chord loops, ostinato-based music and much global music")
   ]),
   n("Song sections",[
     n("Intro","Opening section"),
@@ -269,7 +281,7 @@ n("Structure","How the sections of the music are organised.",[
     n("Outro (coda)","Closing section")
   ]),
   n("Microstructure","The small building blocks",[
-    n("Motif","A short musical idea that is used and developed – like the four-note idea from Beethoven's Symphony No. 5, repeated a step lower"),
+    n("Motif","A short musical idea that is used and developed, like the four-note idea from Beethoven's Symphony No. 5, repeated a step lower"),
     n("Phrase","A musical sentence. Ode to Joy: a question phrase that sounds unfinished, then an answer phrase that ends on the home note."),
     n("Riff / ostinato","Short repeated patterns"),
     n("Call and response","A leader sings or plays, the group answers")
@@ -282,6 +294,6 @@ n("Structure","How the sections of the music are organised.",[
     n("Fine","The end. D.C. al Fine = go back to the beginning and stop at Fine."),
     n("Coda","The ending section")
   ]),
-  ask("How many different sections can you hear?","Which ones repeat?","Label them with letters (A, B…).","What tells you a new section has started – a change of instruments, dynamics, melody?")
+  ask("How many different sections can you hear?","Which ones repeat?","Label them with letters (A, B…).","What tells you a new section has started? A change of instruments, dynamics or melody?")
 ])
 ]);

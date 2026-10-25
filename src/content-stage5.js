@@ -1,5 +1,5 @@
 /* Stage 5 mindmap content, from the Notion page "Stage 5 Music Content". Uses n(), ask(), tip() from content.js */
-const DATA5=n("Elements of Music","Stage 5 · NSW Music 7–10 Syllabus (2024)",[
+const DATA5=n("Elements of Music","Stage 5: NSW Music 7-10 Syllabus (2024)",[
 
 n("Duration","The length of sounds and silences. Stage 5 adds more complex note values, changing and irregular metres, and rhythmic devices.",[
   n("Complex note and rest values",[
@@ -18,14 +18,14 @@ n("Duration","The length of sounds and silences. Stage 5 adds more complex note 
     n("Polyrhythm","Two different divisions of the beat at the same time, e.g. 3 against 2. Clap the top line with one hand and the bottom with the other."),
     n("Cross-rhythm","An accent pattern that cuts across the metre, e.g. 3 + 3 + 2 quavers over a steady 4/4 beat"),
     n("Swung (swing)","Pairs of quavers played long-short, like a triplet with the first two notes tied. Written as even quavers. Typical of jazz and blues."),
-    n("Diminution","A rhythm repeated in shorter note values (usually half) – it sounds faster"),
-    n("Augmentation","A rhythm repeated in longer note values (usually double) – it sounds slower"),
+    n("Diminution","A rhythm repeated in shorter note values (usually half), so it sounds faster"),
+    n("Augmentation","A rhythm repeated in longer note values (usually double), so it sounds slower"),
     n("Hemiola","Two bars of 3 beats felt as three groups of 2. Common just before a cadence.")
   ]),
-  ask("Does the metre stay the same?","Can you conduct it in 2, 3 or 4 – or is it irregular?","Are the quavers straight or swung?","Does the piece start with an up-beat?","Can you hear two rhythms pulling against each other?")
+  ask("Does the metre stay the same?","Can you conduct it in 2, 3 or 4, or is it irregular?","Are the quavers straight or swung?","Does the piece start with an up-beat?","Can you hear two rhythms pulling against each other?")
 ]),
 
-n("Pitch","How high or low sounds are – melody, harmony and tonality. Stage 5 adds melodic and harmonic devices, scales from around the world, and other ways of notating music.",[
+n("Pitch","How high or low sounds are: melody, harmony and tonality. Stage 5 adds melodic and harmonic devices, scales from around the world, and other ways of notating music.",[
   n("Melodic devices",[
     n("Sequence","A melodic pattern repeated straight away at a higher or lower pitch"),
     n("Melisma","One syllable sung over many notes (melismatic). The opposite is syllabic: one note per syllable."),
@@ -37,12 +37,12 @@ n("Pitch","How high or low sounds are – melody, harmony and tonality. Stage 5 
   ]),
   n("Scales",[
     n("By number of notes",[
-      n("Pentatonic","5 notes. Open, folk-like – see Stage 4."),
+      n("Pentatonic","5 notes. Open and folk-like (see Stage 4)."),
       n("Hexatonic","6 notes. Blues and whole-tone scales are both six-note scales."),
       n("Heptatonic","7 notes. Major, minor and the modes are all seven-note scales.")]),
     n("Blues","C, E flat, F, F sharp, G, B flat. Minor pentatonic plus the blue note. Blues, rock, jazz."),
     n("Whole-tone","Every step is a tone. Dreamy, floating, no home note. Debussy, film music."),
-    n("Chromatic","All 12 semitones. Tense, sliding – see Stage 4."),
+    n("Chromatic","All 12 semitones. Tense and sliding (see Stage 4)."),
     n("Harmonic minor","Natural minor with a raised 7th. The big gap between notes 6 and 7 gives an exotic sound."),
     n("Raga (India)","A scale plus rules. Each raga has set notes going up and down, special phrases, a mood and a time of day.",[
       n("Sargam","The Indian note names Sa Re Ga Ma Pa Dha Ni Sa, like do re mi"),
@@ -55,10 +55,10 @@ n("Pitch","How high or low sounds are – melody, harmony and tonality. Stage 5 
     n("Consonance","Notes that sound stable and at rest together"),
     n("Dissonance","Notes that clash and want to move on (resolve)"),
     n("Cadence","The two chords that end a phrase; musical punctuation",[
-      n("Perfect: V – I","Finished. A full stop."),
-      n("Plagal: IV – I","Finished, but softer – the Amen cadence"),
+      n("Perfect: V-I","Finished. A full stop."),
+      n("Plagal: IV-I","Finished, but softer. The Amen cadence"),
       n("Imperfect: ends on V","Unfinished. A comma."),
-      n("Interrupted: V – vi","A surprise – you expect I but get a minor chord")]),
+      n("Interrupted: V-vi","A surprise: you expect I but get a minor chord")]),
     n("Extended chords","A triad with more thirds stacked on top: 7ths, 9ths and beyond. Common in jazz, funk and R&B."),
     n("Modulation","Changing key during a piece. Accidentals or a new key signature show it; a cadence in the new key confirms it."),
     n("Pedal point","A note held (or repeated) in the bass while the chords change above it")
@@ -69,28 +69,28 @@ n("Pitch","How high or low sounds are – melody, harmony and tonality. Stage 5 
     n("Piano roll","How a digital audio workstation (DAW) shows MIDI notes"),
     n("Gamelan cipher notation","Numbers instead of notes. A Javanese gamelan is made of gongs, metallophones and drums.")
   ]),
-  ask("Which scale is this built on – can you hear blue notes or a whole-tone wash?","Does the phrase end finished (perfect or plagal) or unfinished (imperfect)?","Does the key change?","Is there a sequence or a pedal point?","Is the singing syllabic or melismatic?")
+  ask("Which scale is this built on? Can you hear blue notes or a whole-tone wash?","Does the phrase end finished (perfect or plagal) or unfinished (imperfect)?","Does the key change?","Is there a sequence or a pedal point?","Is the singing syllabic or melismatic?")
 ]),
 
 n("Texture","The layers of sound and how they relate to each other.",[
   tip("Beyond thick or thin","Name each layer, its role (melodic, harmonic, rhythmic, bass) and how the layers interact."),
   n("Textural devices","How the layers interact",[
     n("Unison","Everyone plays or sings exactly the same notes"),
-    n("Doubling","The same line played by two instruments, often an octave apart – it strengthens and colours the line"),
+    n("Doubling","The same line played by two instruments, often an octave apart. It strengthens and colours the line"),
     n("Imitation","One part copies another shortly afterwards, often at a different pitch. It does not have to be exact."),
-    n("Canon","Strict imitation – the second part copies the first exactly, all the way through (a round is a canon)"),
+    n("Canon","Strict imitation: the second part copies the first exactly, all the way through (a round is a canon)"),
     n("Call and response","One part makes a statement, another answers"),
     n("Counter-melody","A second, less important melody played against the main tune"),
-    n("Contrary motion","Two lines move in opposite directions – one up, one down")
+    n("Contrary motion","Two lines move in opposite directions, one up and one down")
   ]),
-  ask("How many layers are there and what is each one's role?","Do any instruments double each other?","Does one part imitate another – exactly (canon) or loosely?","Is there a counter-melody?","How does the texture change between sections?")
+  ask("How many layers are there and what is each one's role?","Do any instruments double each other?","Does one part imitate another, exactly (canon) or loosely?","Is there a counter-melody?","How does the texture change between sections?")
 ]),
 
 n("Performing media and timbre","Performing media are the voices, instruments and technologies used. Timbre is the quality of the sound they make. Stage 5: combinations, range and register, and technique directions.",[
   n("Combinations",[
-    n("Small ensembles","One player per part – every line is exposed. Duo, trio, piano trio, jazz combo, rock band, vocal group.",[
-      n("String quartet","2 violins, viola, cello – four staves, one player each. The viola reads the alto clef (middle C is the middle line).")]),
-    n("Large ensembles","Many players per part – richer, thicker, louder; usually needs a conductor. Symphony orchestra, chamber orchestra, concert band, big band, choir, gamelan, musical theatre pit band.")
+    n("Small ensembles","One player per part, so every line is exposed. Duo, trio, piano trio, jazz combo, rock band, vocal group.",[
+      n("String quartet","2 violins, viola and cello: four staves, one player each. The viola reads the alto clef (middle C is the middle line).")]),
+    n("Large ensembles","Many players per part: richer, thicker and louder. Usually needs a conductor. Symphony orchestra, chamber orchestra, concert band, big band, choir, gamelan, musical theatre pit band.")
   ]),
   n("Range and register",[
     n("Range","The distance from the lowest to the highest note an instrument or voice can produce"),
@@ -101,13 +101,13 @@ n("Performing media and timbre","Performing media are the voices, instruments an
     n("pizz. / arco","Strings: pluck / return to the bow"),
     n("con sord. / senza sord.","With mute / without mute (strings and brass)"),
     n("8va","Play an octave higher than written"),
-    n("flz. (flutter-tongue)","Wind players roll an rrr while blowing – a growling, buzzing sound"),
+    n("flz. (flutter-tongue)","Wind players roll an rrr while blowing, which makes a growling, buzzing sound"),
     n("Harmonic (small circle)","Lightly touch the string for a pure, glassy, flute-like note"),
     n("P.M. (palm mute)","Guitar: rest the picking hand on the strings for a chunky, muffled sound"),
     n("sul pont. / sul tasto","Bow near the bridge (thin, glassy) / over the fingerboard (soft, airy)"),
     n("Vocal techniques","Falsetto (high light voice), belt (powerful chest voice), scat (improvised nonsense syllables), vibrato (wavering pitch)")
   ]),
-  ask("Is this a small or large ensemble – how can you tell?","Which register is the melody in, and how does that affect the timbre?","What techniques can you hear (mutes, pizzicato, harmonics, palm muting, falsetto)?","Has the sound been changed electronically?")
+  ask("Is this a small or large ensemble? How can you tell?","Which register is the melody in, and how does that affect the timbre?","What techniques can you hear (mutes, pizzicato, harmonics, palm muting, falsetto)?","Has the sound been changed electronically?")
 ]),
 
 n("Dynamics and expression","Dynamics is the volume of the music; expression is how the notes are shaped. Stage 5 adds extreme and sudden dynamics, finer articulation, instrument-specific techniques and electronic manipulation.",[
@@ -123,7 +123,7 @@ n("Dynamics and expression","Dynamics is the volume of the music; expression is 
   n("Articulation",[
     n("Tenuto (line)","Hold for the full value, slightly stressed"),
     n("Marcato (wedge)","Marked: a strong accent, stronger than a normal accent"),
-    n("Portato","Dots and lines under a slur – gently separated, halfway between legato and staccato")
+    n("Portato","Dots and lines under a slur: gently separated, halfway between legato and staccato")
   ]),
   n("Techniques for specific media",[
     n("Guitar / bass","Palm muting, bends, slides, hammer-ons and pull-offs, harmonics, slap bass"),
@@ -143,18 +143,18 @@ n("Dynamics and expression","Dynamics is the volume of the music; expression is 
     n("dolce","Sweetly"),n("cantabile","In a singing style"),n("espressivo (espress.)","Expressively"),
     n("con brio / con fuoco","With vigour / with fire"),n("agitato / tranquillo","Agitated / calm"),
     n("maestoso / grazioso","Majestic / graceful"),
-    n("rubato","Flexible tempo – push and pull the beat for expression"),
+    n("rubato","Flexible tempo: push and pull the beat for expression"),
     n("a tempo","Return to the original speed")
   ]),
-  ask("Are there sudden changes (sfz, fp, subito) or gradual ones?","How are the notes articulated – tenuto, marcato, portato, staccato, legato?","Which techniques belong to this instrument?","What has been done electronically – loops, compression, effects?")
+  ask("Are there sudden changes (sfz, fp, subito) or gradual ones?","How are the notes articulated: tenuto, marcato, portato, staccato or legato?","Which techniques belong to this instrument?","What has been done electronically: loops, compression or effects?")
 ]),
 
-n("Structure","How music is organised – the big sections, the small building blocks, and how musical material is developed.",[
+n("Structure","How music is organised: the big sections, the small building blocks, and how musical material is developed.",[
   tip("Link structure to style","A blues, a symphony and a gamelan piece are each built in a typical way."),
   n("Macrostructures",[
     n("Strophic","Hymns, folk songs, many ballads"),
     n("Through-composed","No section returns; follows a story (art songs, some film music)"),
-    n("Theme and variations","The theme returns each time changed – melody decorated, new rhythm, minor key, new texture"),
+    n("Theme and variations","The theme returns changed each time: melody decorated, new rhythm, minor key or new texture"),
     n("Sonata form","Two contrasting themes are presented, developed, then brought back. In the recapitulation both themes are in the home key."),
     n("Multi-movement works","Symphonies, concertos (usually 3 movements: fast, slow, fast), sonatas and suites are made of several complete, contrasting movements")
   ]),
@@ -165,9 +165,9 @@ n("Structure","How music is organised – the big sections, the small building b
     n("From Stage 4","Motif, phrase, riff, ostinato, call and response")
   ]),
   n("Developing musical material","What happens to the idea",[
-    n("Repetition","Heard again unchanged – creates unity"),
-    n("Variation","Heard again with something changed – ornamented, reharmonised, new rhythm or instrument"),
-    n("Contrast","Something new – creates variety and marks a new section"),
+    n("Repetition","Heard again unchanged. Creates unity"),
+    n("Variation","Heard again with something changed: ornamented, reharmonised, new rhythm or new instrument"),
+    n("Contrast","Something new. Creates variety and marks a new section"),
     n("Sequence","Repeated higher or lower"),
     n("Augmentation / diminution","Same idea in longer / shorter note values"),
     n("Fragmentation","Only part of the idea is used and repeated"),
@@ -179,6 +179,6 @@ n("Structure","How music is organised – the big sections, the small building b
     n("A cadence",""),n("A modulation",""),n("A drum fill",""),n("A change of texture or instrumentation",""),
     n("A change of dynamics or tempo",""),n("A pause or silence",""),n("The return of a familiar theme or riff","")
   ]),
-  ask("Map the sections with letters. Which form is it closest to?","How does the structure suit the style?","When material returns, is it repeated, varied or developed – and how?","What signals each new section?")
+  ask("Map the sections with letters. Which form is it closest to?","How does the structure suit the style?","When material returns, is it repeated, varied or developed? How?","What signals each new section?")
 ])
 ]);
